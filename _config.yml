@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Abhishek Deb's Space
 subtitle:
 description:
-author: John Doe
-language:
+author: Abhishek Deb 
+language: en
 timezone:
 
 # URL
@@ -68,4 +68,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: "https://github.com/vikz91/vikz91.github.io.git"
+  branch: master
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+
