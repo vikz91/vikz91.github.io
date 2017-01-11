@@ -20,6 +20,8 @@ Category: Game Development
 
 This is my take on a utility library for Unity Engine. It has some GUI Scaling Utility Methods, some Debugging Methods, Array Utilities and some other cool stuff like finite state machine, generic singletons, Event Messaging, and etc. 
 
+<!-- more -->
+
 This is an ongoing project which I’ll be updating over time.
 
 [_Unity Utility Library for Unity Game Engine](https://bitbucket.org/skipbits/_unity)

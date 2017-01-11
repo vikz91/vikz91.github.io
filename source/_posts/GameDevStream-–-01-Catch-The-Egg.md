@@ -11,6 +11,8 @@ date: 2015-03-28 00:53:00
 # \#GameDevStream – 01. Catch The Egg
 GameDevStream is a series of Live Video Streams of Indie Game Development. This is the first video of a casual game “Catch The Egg”. Use the arrow buttons to move the basket left or right and try to actually “catch the egg” (s) to score higher.
 
+<!-- more -->
+
 `#GameDevStream`
 
 ## Video 1: Catch The Egg

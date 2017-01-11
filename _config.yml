@@ -29,7 +29,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
-default_layout: post
+default_layout: About
 titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
@@ -66,6 +66,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: Chan
+disqus_shortname: debabhishek-com
+comments: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -76,7 +78,10 @@ deploy:
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
 
-admin:
-  username: abhishekdeb
-  password_hash: $2y$10$2PgICSc71zmQ4EzbisKZT.beaddQ5BrqbpUYehwctOoUu0DCA2fOS
-  secret: 2H8HJH6GJ__$LKNJ#JKNJKKB$5a3
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
+

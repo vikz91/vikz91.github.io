@@ -13,6 +13,8 @@ category: Game Development
 
 Recently while making one of my games,  my team felt the need to have a standardized game Flow Diagram so that every one in the team clearly understands how the game progression works, and which screens comes after which one. 
 
+<!-- more -->
+
 ## Game flow? for mobiles?
 
 So, I [stumbled upon this](http://tinypic.com/view.php?pic=2087ac3&s=5#.WHaAvLZ95Z2), and modified it to my own needs and here it is. For mobile devices, Social Leaderboard and IAP are greatly used.

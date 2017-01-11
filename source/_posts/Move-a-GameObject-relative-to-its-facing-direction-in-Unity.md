@@ -17,6 +17,7 @@ date: 2014-06-01
 
 Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.
 
+<!-- more -->
 
 If the game is such that the player can simultaneously move on x and z direction, you can independently setup the movement physics code. Turning around would be used by the mouse itself so you just need to setup a mouse-look script on the camera. Here the Turning around is a continuous task (e.g. Crysis, COD, Project IGI).
 

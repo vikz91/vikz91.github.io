@@ -13,6 +13,10 @@ updated: 2017-01-09
 
 # Why work in Game Industry when IT Companies pay better?
 
+> there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?
+
+<!-- more -->
+
 A very interesting, and yet, disappointing question revolves me around by many friends, friends of friends, and strangers – “Why would I work in a Game Industry when IT companies are paying me better?“.
 
 Before even starting this article, I would like to highlight the fact that Game Industry doesn’t consists of only Programmers and Testers. Artists create assets and they themselves are unavoidable and priceless assets.

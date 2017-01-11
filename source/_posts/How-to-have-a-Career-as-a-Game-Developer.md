@@ -14,6 +14,9 @@ category: Game Development
 ## [ Introduction ]
 
 I don’t intend to sound formal or academic in any sense but then again, this format has already helped a lot of people(including me) so I am going to stick to it anyway.
+
+<!-- more -->
+
 You may have come around many articles and blog on How to have a Career as a Game Developer, this one is just more of a journal/ note/ Task List. All of the key points are arranged in a specific manner, so you may find very short paragraphs.
 
 Articles are:

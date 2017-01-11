@@ -13,6 +13,8 @@ category: Game Development
 
 Here are some cool and “must-have” tools, scripts, and Lifesaver plugins that will save your from pulling your hairs out. All of these are FREE.
 
+<!-- more -->
+
 1. Frame Per Second
 	If you are using Unity’s FPS to track and manage the game, think again. Use [this script](http://wiki.unity3d.com/index.php?title=FramesPerSecond) to see REAL FPS counter.
 
