@@ -1,7 +1,11 @@
 ---
 title: How to have a Career as a Game Developer
 date: 2014-06-20 
-tags: Career, career in game development, start, bootstraping
+tags: 
+- Career
+- career in game development
+- start
+- bootstraping
 category: Game Development
 ---
 

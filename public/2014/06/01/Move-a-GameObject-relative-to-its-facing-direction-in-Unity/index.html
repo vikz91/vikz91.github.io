@@ -8,16 +8,20 @@
 
 <title>
   
-    Archive: 2017/1
+    Move a GameObject relative to its facing direction in Unity
   
 </title>
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Abhishek Deb">
-<meta property="og:url" content="http://debabhishek.com/archives/2017/01/index.html">
+<meta name="description" content="The ScenarioGenerally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Move a GameObject relative to its facing direction in Unity">
+<meta property="og:url" content="http://debabhishek.com/2014/06/01/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/index.html">
 <meta property="og:site_name" content="Abhishek Deb">
+<meta property="og:description" content="The ScenarioGenerally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including">
+<meta property="og:updated_time" content="2017-01-08T21:24:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Abhishek Deb">
+<meta name="twitter:title" content="Move a GameObject relative to its facing direction in Unity">
+<meta name="twitter:description" content="The ScenarioGenerally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including">
 
 
   <link rel="alternative" href="/atom.xml" title="Abhishek Deb" type="application/atom+xml">
@@ -149,57 +153,68 @@
       
         <div style="max-width: 1000px">
       
-          
-
+          <article id="post-Move-a-GameObject-relative-to-its-facing-direction-in-Unity" class="article article-type-post">
+  
+    <h1 class="article-header">
+      Move a GameObject relative to its facing direction in Unity
+    </h1>
   
   
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <h1><a href="/archives/2017" class="archive-year">2017</a></h1>
-        </div>
-        <div class="post-list">
-    
-  
 
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2017/01/08/hello-world/" >
-  Hello World
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2017/01/08/hello-world/"><span class="article-date">
-  2017-01-08
+  <div class="article-info">
+    <span class="article-date">
+  2014-06-01
 </span>
-</a>
-        
 
-        
+    
+	<span class="article-category tagcloud">
+	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/Game-Development/">Game Development</a></li></ul>
+	</span>
 
-      </div>
-      <div class="article-entry">
-        
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
-        
-      </div>
-    </div>
+    
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/movement-transform-unity3d-unity-physics-rigidbody-C/">movement, transform, unity3d, unity, physics, rigidbody, C#</a></li></ul>
+	</span>
 
-  
+
+  </div>
+  <div class="article-entry">
+    <h1 id="The-Scenario"><a href="#The-Scenario" class="headerlink" title="The Scenario"></a>The Scenario</h1><p>Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.</p>
+<p>If the game is such that the player can simultaneously move on x and z direction, you can independently setup the movement physics code. Turning around would be used by the mouse itself so you just need to setup a mouse-look script on the camera. Here the Turning around is a continuous task (e.g. Crysis, COD, Project IGI).</p>
+<p>e.g.<br><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//Moving <span class="keyword">Forward</span></div><div class="line"> rigidbody.AddForce(Vector3.forward* <span class="keyword">Input</span>.GetAxis(“<span class="keyword">Vertical</span>”)*<span class="number">400</span>);</div><div class="line"></div><div class="line">//Turning Around</div><div class="line">rigidbody.AddForce(Vector3.right* <span class="keyword">Input</span>.GetAxis(“<span class="keyword">Horizontal</span>”)*<span class="number">400</span>);</div></pre></td></tr></table></figure></p>
+<p>But there may be a problem if you want to make a game where the mouse-look isn’t really needed and the turning happens discretely by user input and based on the direction the player is facing, he is needed to move forward (e.g. Temple Run).</p>
+<h1 id="The-Solution"><a href="#The-Solution" class="headerlink" title="The Solution"></a>The Solution</h1><p>Now you can either use global variables to keep reference of the direction the player gameObject is facing, or use simple and more natural logic to move it, using the following scripts.</p>
+<h2 id="Case-I"><a href="#Case-I" class="headerlink" title="Case I"></a>Case I</h2><p>If you are manipulating the position directly, you can move a gameobject relative to its facing direction by using transform.forward instead of Vector3.forward in the scripting.</p>
+<p>e.g.<br><figure class="highlight maxima"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">transform</span>.<span class="built_in">position</span>=Vector3.Lerp(<span class="built_in">transform</span>.<span class="built_in">position</span>,<span class="built_in">transform</span>.forward,Time.deltaTime);</div></pre></td></tr></table></figure></p>
+<h3 id="Case-II"><a href="#Case-II" class="headerlink" title="Case II"></a>Case II</h3><p>If your code is using physics, use rigidbody.AddRelativeForce rather than rigidbody.AddForce</p>
+<p>e.g.</p>
+<pre><code>rigidbody.AddRelativeForce(Vector3.forward*30);
+</code></pre><h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>The scripts are intended for 3D Environment. But changing them for 2D is easy. I will try to provide 2D examples too if I find suitable time.</p>
+
+  </div>
+  <footer class="article-footer">
+    
+  <div class="cc">
+    <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.e" target="_blank" title="Attribution-ShareAlike">
+      <img src="/images/cc/cc.png">
+      
+          <img src="/images/cc/by.png">
+        
+          <img src="/images/cc/sa.png">
+      
+      <span>
+        This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+      </span>
+    </a>
+  </div>
+
+
+    
+
+  </footer>
+</article>
+
 
 
 

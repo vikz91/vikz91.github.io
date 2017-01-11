@@ -1,7 +1,12 @@
 ---
 title: Why work in Game Industry when IT companies pay better?
 date: 2014-06-05
-tags: Game development as career,thought,why game development, motivation
+tags: 
+- Game development as career
+- thought
+- why game development
+- motivation
+- career
 category: Game Development
 updated: 2017-01-09
 ---

@@ -1,6 +1,13 @@
 ---
 title: Move a GameObject relative to its facing direction in Unity
-tags: 'movement, transform, unity3d, unity, physics, rigidbody, C#'
+tags: 
+- movement
+- transform
+- unity3d
+- unity
+- physics
+- rigidbody
+- C#
 category: Game Development
 date: 2014-06-01 
 ---
