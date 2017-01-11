@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Abhishek Deb</title>
+  <subtitle>Dreamer / Designer / Developer</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://debabhishek.com/"/>
+  <updated>2017-01-11T20:00:47.000Z</updated>
+  <id>http://debabhishek.com/</id>
+  
+  <author>
+    <name>Abhishek Deb</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#GameDevStream – 01. Catch The Egg</title>
+    <link href="http://debabhishek.com/2015/03/28/GameDevStream-%E2%80%93-01-Catch-The-Egg/"/>
+    <id>http://debabhishek.com/2015/03/28/GameDevStream-–-01-Catch-The-Egg/</id>
+    <published>2015-03-27T19:23:00.000Z</published>
+    <updated>2017-01-11T20:00:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GameDevStream-–-01-Catch-The-Egg"><a href="#GameDevStream-–-01-Catch-The-Egg" class="headerlink" title="#GameDevStream – 01. Catch The Egg"></a>#GameDevStream – 01. Catch The Egg</h1><p>GameDevStream is a series of Live Video Streams of Indie Game Development. This is the first video of a casual game “Catch The Egg”. Use the arrow buttons to move the basket left or right and try to actually “catch the egg” (s) to score higher.</p>
+<a id="more"></a>
+<p><code>#GameDevStream</code></p>
+<h2 id="Video-1-Catch-The-Egg"><a href="#Video-1-Catch-The-Egg" class="headerlink" title="Video 1: Catch The Egg"></a>Video 1: Catch The Egg</h2><p>So, I have decided to start a new Youtube Playlist and upload my streams of Video Game Development, called #GameDevStream. Its basically for beginners and intermediates. Advanced Videos will follow. I am very new to this screen-cast things and so, thought of experimenting with it. The main goal of this initiative is to put a “feel” online how “Game Developers” actually code.</p>
+<h2 id="See-the-Video"><a href="#See-the-Video" class="headerlink" title="See the Video:"></a>See the Video:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/mGDrU8nd3WE" frameborder="0" allowfullscreen></iframe></div>
+<p>This is the first game development video of the series #GameDevStream. Its a 2 hour + Video of a simple game “Catch The Egg”. Of-course there are a LOTTTT of things that needs to be taken care of in the game development ( pooling, Managers, etc) but this is just to show how quickly you can make a game, and what feel goes into it. The Next Videos will contain more in-depth improvements (Delegates, Messaging System, Singletons, etc).</p>
+<p>The <a href="BitBucket">Source Code</a> has been uploaded on BitBucket.</p>
+<p>Feel free to ask any questions and criticize to your satisfaction. Also, I am looking for other people who are interested in this project and want to share their experience with.</p>
+<p>The Code is written on Unity 4 and may <strong>NOT</strong> work in Unity 5.</p>
+<p><code>#GameDevStream</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;GameDevStream-–-01-Catch-The-Egg&quot;&gt;&lt;a href=&quot;#GameDevStream-–-01-Catch-The-Egg&quot; class=&quot;headerlink&quot; title=&quot;#GameDevStream – 01. Catch The Egg&quot;&gt;&lt;/a&gt;#GameDevStream – 01. Catch The Egg&lt;/h1&gt;&lt;p&gt;GameDevStream is a series of Live Video Streams of Indie Game Development. This is the first video of a casual game “Catch The Egg”. Use the arrow buttons to move the basket left or right and try to actually “catch the egg” (s) to score higher.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="Game Development Stream" scheme="http://debabhishek.com/tags/Game-Development-Stream/"/>
+    
+      <category term="#GameDevStream" scheme="http://debabhishek.com/tags/GameDevStream/"/>
+    
+      <category term="Game Development Tutorial" scheme="http://debabhishek.com/tags/Game-Development-Tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Game Flow Design for mobiles</title>
+    <link href="http://debabhishek.com/2015/02/17/Game-Flow-Design-for-mobiles/"/>
+    <id>http://debabhishek.com/2015/02/17/Game-Flow-Design-for-mobiles/</id>
+    <published>2015-02-16T18:57:51.000Z</published>
+    <updated>2017-01-11T20:01:45.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Game-Flow-Design-for-mobiles"><a href="#Game-Flow-Design-for-mobiles" class="headerlink" title="Game Flow Design for mobiles"></a>Game Flow Design for mobiles</h1><p>Recently while making one of my games,  my team felt the need to have a standardized game Flow Diagram so that every one in the team clearly understands how the game progression works, and which screens comes after which one. </p>
+<a id="more"></a>
+<h2 id="Game-flow-for-mobiles"><a href="#Game-flow-for-mobiles" class="headerlink" title="Game flow? for mobiles?"></a>Game flow? for mobiles?</h2><p>So, I <a href="http://tinypic.com/view.php?pic=2087ac3&amp;s=5#.WHaAvLZ95Z2" target="_blank" rel="external">stumbled upon this</a>, and modified it to my own needs and here it is. For mobile devices, Social Leaderboard and IAP are greatly used.</p>
+<p><img src="/2015/02/17/Game-Flow-Design-for-mobiles/What-a-Drag-Diagrams.jpg" alt=""></p>
+<h2 id="How-does-it-work"><a href="#How-does-it-work" class="headerlink" title="How does it work?"></a>How does it work?</h2><ol>
+<li>User taps/clicks the game icon from the app drawer.</li>
+<li>Game Launches with a splash screen, showing the company logo and other frameworks / Libraries used ( if permissible). The Intro Splash screen must not retain more than 3 secs, and should fade to either white, or black.</li>
+<li>If an initial Loading screen is intended (which is recommended), The graphics used should be minimal and should to add to the overhead. It can also display Tips and/or News.</li>
+<li>The Main Menu should be very attractive to give its FIRST IMPRESSION. Do NOT over do the Main Menu, also, try to avoid bluntness. It is the centralized Menu, which will take the user to all the other screens,a nd even QUIT the game too.</li>
+<li>Social Leaderboard, IAP and Missions are the “minimum and must have” features of a mobile game nowdays. If you are dreaming of earning through Ads alone, then good luck keep on dreaming!</li>
+<li>For mobile device, Settings Popup should atleast – sound toggles, Reset Score, Vibration Toggle, etc.</li>
+<li>About Popup must contain a brief intro about the game, and should clearly mention the goal of the game and the alternative links. Also, this is a very good place for embedding Credits.</li>
+<li>Technically, you can give as many Game Modes as you wish. But do take note that you should also provide an Interactive Tutorial for each.</li>
+<li>A Briefing Page us what tells the players about the goals and missions of the level he is going to play. For e.g. Score Bonuses and Unlocks, Friendly Challenges, etc.</li>
+<li>Action is where the actual game takes place. One tip of advice – NEVER, EVER, EVER put advertisements on the main game scene. Gamers will hate it and will be frustrated.</li>
+<li>Game Flow Design lets us investigate the flow of all the screens .</li>
+<li>Both Action and the interactive tutorial should have Pause Buttons.</li>
+<li>A Pause Popup should allow the game to navigate to Main Menu or, resume back to the ongoing game.</li>
+<li>Debriefing Popup should inform the user if he/she won or lose. Score calculation happens at these stage and all the bonus unlocks should be displayed here. On of the critical responsibilities of a game designers is to let the gamer feel paradise after winning a game. Rewards, and exclusive REWARDS. Remember, Most players play games for appreciations, even virtual ones.</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Game-Flow-Design-for-mobiles&quot;&gt;&lt;a href=&quot;#Game-Flow-Design-for-mobiles&quot; class=&quot;headerlink&quot; title=&quot;Game Flow Design for mobiles&quot;&gt;&lt;/a&gt;Game Flow Design for mobiles&lt;/h1&gt;&lt;p&gt;Recently while making one of my games,  my team felt the need to have a standardized game Flow Diagram so that every one in the team clearly understands how the game progression works, and which screens comes after which one. &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="Architecture" scheme="http://debabhishek.com/tags/Architecture/"/>
+    
+      <category term="Game Flow Diagram" scheme="http://debabhishek.com/tags/Game-Flow-Diagram/"/>
+    
+      <category term="Mobile Workflow" scheme="http://debabhishek.com/tags/Mobile-Workflow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>_unity : Utility Library for Unity 3D</title>
+    <link href="http://debabhishek.com/2014/08/15/unity-Utility-Library-for-Unity-3D/"/>
+    <id>http://debabhishek.com/2014/08/15/unity-Utility-Library-for-Unity-3D/</id>
+    <published>2014-08-14T18:41:16.000Z</published>
+    <updated>2017-01-11T20:01:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="unity-Utility-Library-for-Unity-3D"><a href="#unity-Utility-Library-for-Unity-3D" class="headerlink" title="_unity : Utility Library for Unity 3D"></a>_unity : Utility Library for Unity 3D</h1><p>This is my take on a utility library for Unity Engine. It has some GUI Scaling Utility Methods, some Debugging Methods, Array Utilities and some other cool stuff like finite state machine, generic singletons, Event Messaging, and etc. </p>
+<a id="more"></a>
+<p>This is an ongoing project which I’ll be updating over time.</p>
+<p><a href="https://bitbucket.org/skipbits/_unity" target="_blank" rel="external">_Unity Utility Library for Unity Game Engine</a></p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><ol>
+<li>Download from Github</li>
+<li>Compile with VS 2013</li>
+<li>Put dll in Plugins folder of Unity Project</li>
+</ol>
+<h2 id="Quick-Setup"><a href="#Quick-Setup" class="headerlink" title="Quick Setup"></a>Quick Setup</h2><p>Get the pre-compiled binary dll in bin directory of this repo and put it in plugins folder of your unity project.</p>
+<h2 id="DOCS"><a href="#DOCS" class="headerlink" title="DOCS"></a>DOCS</h2><p>public static void l(string msg)<br>prints a string to the debug console with current time and date and other info e.g. _.l(“Hello”);</p>
+<p>public static void ExecOnce(Callback callback,ref bool limiter)<br>Executes a method only once inside all loop functions ( update, OnGUI, etc)</p>
+<p>public static void GUISetup(float customWidth=1366f,float customHeight=768f)<br>Sets up GUI Scaling correctly. Call this at first line of each OnGUI. e.g. <em>.GUISetup(); e.g. </em>.GUISetup(800f,480f);</p>
+<p>Find more at the Bitbucket repo.</p>
+<p>Feel free to ask any questions regarding _unity as this is a very basic utility library for Unity 3D engine. Catch me on google @ +AbhishekDeb.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;unity-Utility-Library-for-Unity-3D&quot;&gt;&lt;a href=&quot;#unity-Utility-Library-for-Unity-3D&quot; class=&quot;headerlink&quot; title=&quot;_unity : Utility Library for Unity 3D&quot;&gt;&lt;/a&gt;_unity : Utility Library for Unity 3D&lt;/h1&gt;&lt;p&gt;This is my take on a utility library for Unity Engine. It has some GUI Scaling Utility Methods, some Debugging Methods, Array Utilities and some other cool stuff like finite state machine, generic singletons, Event Messaging, and etc. &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="debug" scheme="http://debabhishek.com/tags/debug/"/>
+    
+      <category term="Github" scheme="http://debabhishek.com/tags/Github/"/>
+    
+      <category term="gui scaling" scheme="http://debabhishek.com/tags/gui-scaling/"/>
+    
+      <category term="library" scheme="http://debabhishek.com/tags/library/"/>
+    
+      <category term="shuffle" scheme="http://debabhishek.com/tags/shuffle/"/>
+    
+      <category term="utility" scheme="http://debabhishek.com/tags/utility/"/>
+    
+      <category term="finite state machine" scheme="http://debabhishek.com/tags/finite-state-machine/"/>
+    
+      <category term="generic singleton" scheme="http://debabhishek.com/tags/generic-singleton/"/>
+    
+      <category term="REST client" scheme="http://debabhishek.com/tags/REST-client/"/>
+    
+      <category term="rapid tools" scheme="http://debabhishek.com/tags/rapid-tools/"/>
+    
+      <category term="rapid library" scheme="http://debabhishek.com/tags/rapid-library/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lifesaver tools and scripts</title>
+    <link href="http://debabhishek.com/2014/08/05/Lifesaver-tools-and-scripts/"/>
+    <id>http://debabhishek.com/2014/08/05/Lifesaver-tools-and-scripts/</id>
+    <published>2014-08-05T18:24:33.000Z</published>
+    <updated>2017-01-11T20:01:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Lifesaver-tools-and-scripts"><a href="#Lifesaver-tools-and-scripts" class="headerlink" title="Lifesaver tools and scripts"></a>Lifesaver tools and scripts</h1><p>Here are some cool and “must-have” tools, scripts, and Lifesaver plugins that will save your from pulling your hairs out. All of these are FREE.</p>
+<a id="more"></a>
+<ol>
+<li><p>Frame Per Second<br> If you are using Unity’s FPS to track and manage the game, think again. Use <a href="http://wiki.unity3d.com/index.php?title=FramesPerSecond" target="_blank" rel="external">this script</a> to see REAL FPS counter.</p>
+</li>
+<li><p>Finite State Machine<br> Every good programmer uses a state machine solution to avoid code complexity and re-use code in a structured way. So far, the <a href="https://github.com/thefuntastic/Unity3d-Finite-State-Machine" target="_blank" rel="external">best Finite State Machine Solution</a> I have got. You could be interested in <a href="https://bitbucket.org/skipbits/_unity" target="_blank" rel="external">uTool</a> plugin as well which has integrated State Machine Features</p>
+</li>
+<li><p>Directory Contents to Text File<br> In Windows, if you want to print all the contents of a directory ( may be, recursively?) to an external text file, do so by the tree command. Hold Shift and Right Click the directory you want to print, click on Open Command Window here and paste this code and press enter.<br> <code>tree /F /A &gt; contents.txt</code></p>
+<p> The <code>/F</code> Flag prints the file names, and <code>/A</code> flag disables extended ASCII printing.<br> IMHO, this should have topped the Lifesaver tools and scripts list.</p>
+</li>
+<li><p><del>In-App Purchase, Social Profile, Rewards</del> <em>This has been discontinued</em>.<br> Recently I stumbled upon a great open-source framework for unity: Soomla.<br> <em>Soomla offers :</em><br> Store : The one-go IAP Package for all the virtual currency management<br> Level Up : Game Progression with ease.<br> Grow : Community driven analytic and data sharing<br> Profile: Social Profile for your players – Facebook Status, Twitter Bragging, etc.<br> The best thing about this is that the whole package is open-source and you can use them as long as you want, modify them as you wish.</p>
+</li>
+<li><p>Shaders<br> Shaders contain code that defines what kind of properties and assets to use. A Shader basically defines a formula for how the in-game shading should look. Shaders are meant to be written by graphics programmers. They are created using the ShaderLab language, which is quite simple. For a quick view, these are the most used ones:  </p>
+<ul>
+<li><a href="http://wiki.unity3d.com/index.php/Transparent_Single_Color_Shader" target="_blank" rel="external">Transparent Single Color Shader</a></li>
+<li><a href="http://wiki.unity3d.com/index.php/ToonShadowed" target="_blank" rel="external">Toon Shadowed Shader</a></li>
+<li><a href="http://wiki.unity3d.com/index.php/OutlinedDiffuse" target="_blank" rel="external">Outlined Diffuse Shader</a></li>
+<li><a href="https://www.assetstore.unity3d.com/#/content/3926" target="_blank" rel="external">Quick and Easy Toon Shader from Asset Store</a>  </li>
+</ul>
+</li>
+<li><p>Input and Touches<br> Prime31 does offer a good touch solution but if you are looking for more intuitive and all-in-one touch solutions, you have to look at <a href="https://github.com/InteractiveLab/TouchScript" target="_blank" rel="external">TouchScript</a> .</p>
+<pre><code>+ Good Documentation
++ Demo Tutorials  
++ Comparatively Easy and Fast  
++ Many Projects are using them   
+</code></pre></li>
+<li>Tweening<br> To the point iTween is considered the defacto for tweening in Unity Systems , I found <a href="http://dotween.demigiant.com/" target="_blank" rel="external">DOTween</a>.<br> Is really Fast ( and I mean REALLY), fuly optimized for C# and works great on every device.<br> Another one of the neat Lifesaver tools and scripts for unity to strap under your belt.</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Lifesaver-tools-and-scripts&quot;&gt;&lt;a href=&quot;#Lifesaver-tools-and-scripts&quot; class=&quot;headerlink&quot; title=&quot;Lifesaver tools and scripts&quot;&gt;&lt;/a&gt;Lifesaver tools and scripts&lt;/h1&gt;&lt;p&gt;Here are some cool and “must-have” tools, scripts, and Lifesaver plugins that will save your from pulling your hairs out. All of these are FREE.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="plugins" scheme="http://debabhishek.com/tags/plugins/"/>
+    
+      <category term="scripts" scheme="http://debabhishek.com/tags/scripts/"/>
+    
+      <category term="tools" scheme="http://debabhishek.com/tags/tools/"/>
+    
+      <category term="tricks" scheme="http://debabhishek.com/tags/tricks/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Effective Unity Folder Structure </title>
+    <link href="http://debabhishek.com/2014/07/28/Effective-Unity-Folder-Structure/"/>
+    <id>http://debabhishek.com/2014/07/28/Effective-Unity-Folder-Structure/</id>
+    <published>2014-07-28T06:55:35.000Z</published>
+    <updated>2017-01-11T20:01:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Effective-Unity-Folder-Structure"><a href="#Effective-Unity-Folder-Structure" class="headerlink" title="Effective Unity Folder Structure"></a>Effective Unity Folder Structure</h1><p>There are many types of structures, being used by so many people. Some are categorize by file types, some by tags, and some by the relations. However, I found the following folder structure to be very efficient.</p>
+<a id="more"></a>
+<p>I have come across many blogs and studies their folder structures and what I found best for me was the following one. This is a lighltly edited version of what you will get at : <a href="http://www.glenstevens.ca/unity3d-best-practices/" target="_blank" rel="external">http://www.glenstevens.ca/unity3d-best-practices/</a></p>
+<p><img src="/2014/07/28/Effective-Unity-Folder-Structure/Unity3d-Folder-Structure.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Effective-Unity-Folder-Structure&quot;&gt;&lt;a href=&quot;#Effective-Unity-Folder-Structure&quot; class=&quot;headerlink&quot; title=&quot;Effective Unity Folder Structure&quot;&gt;&lt;/a&gt;Effective Unity Folder Structure&lt;/h1&gt;&lt;p&gt;There are many types of structures, being used by so many people. Some are categorize by file types, some by tags, and some by the relations. However, I found the following folder structure to be very efficient.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="Folder Structure" scheme="http://debabhishek.com/tags/Folder-Structure/"/>
+    
+      <category term="Game Workflow" scheme="http://debabhishek.com/tags/Game-Workflow/"/>
+    
+      <category term="Unity" scheme="http://debabhishek.com/tags/Unity/"/>
+    
+      <category term="Abhishek" scheme="http://debabhishek.com/tags/Abhishek/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How to have a Career as a Game Developer</title>
+    <link href="http://debabhishek.com/2014/06/20/How-to-have-a-Career-as-a-Game-Developer/"/>
+    <id>http://debabhishek.com/2014/06/20/How-to-have-a-Career-as-a-Game-Developer/</id>
+    <published>2014-06-19T18:30:00.000Z</published>
+    <updated>2017-01-11T20:01:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="How-to-have-a-Career-as-a-Game-Developer"><a href="#How-to-have-a-Career-as-a-Game-Developer" class="headerlink" title="How to have a Career as a Game Developer"></a>How to have a Career as a Game Developer</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="[ Introduction ]"></a>[ Introduction ]</h2><p>I don’t intend to sound formal or academic in any sense but then again, this format has already helped a lot of people(including me) so I am going to stick to it anyway.</p>
+<a id="more"></a>
+<p>You may have come around many articles and blog on How to have a Career as a Game Developer, this one is just more of a journal/ note/ Task List. All of the key points are arranged in a specific manner, so you may find very short paragraphs.</p>
+<p>Articles are:</p>
+<ul>
+<li>Comparatively Short</li>
+<li>Updated with Latest Trends and Specs</li>
+<li>Objective type and To the point</li>
+<li>Distinctive and Clear</li>
+<li>Drafts, Diagrams, Examples (just like this one) and Walkthroughs</li>
+<li>Comparisons with Advantages/Disadvantages, Quotes and Links</li>
+<li>Challenging as-well-as Motivating</li>
+<li>References to valuable resources and people</li>
+<li>Separate Queries in the Forum ( Soon)</li>
+</ul>
+<h2 id="STEP-1-–-Reviewing-all-the-“instincts”-and-“intuitions”"><a href="#STEP-1-–-Reviewing-all-the-“instincts”-and-“intuitions”" class="headerlink" title="[ STEP 1 ] – Reviewing all the “instincts” and “intuitions”"></a>[ STEP 1 ] – Reviewing all the “instincts” and “intuitions”</h2><p>I created this blog as a reminder for myself from time to time, and as a self-motivation tool. Eventually, it has helped a lot of my friends, local people, and even people from other places (outside my country).</p>
+<p>There is a difference between becoming a game developer, and becoming a good game developer. To become the latter, get yourself acquainted with these following skills –</p>
+<ol>
+<li>Strong Programming ability ( C++ / Java / C# / ActionScript / JavaScript / …)</li>
+<li>Understanding platform architecture (PC/ PlayStation/ XBOX/ Android/ Wii/ iOS/ Steam Box/ … )</li>
+<li>Understanding Academics – Maths, Physics, Graphics, AI (Artificial Intelligence), Psychology …</li>
+<li>Understanding Tools <ol>
+<li>Art Tools -  (Photoshop, Blender/ 3DS/ zBrush), </li>
+<li>Engines  - ( Unity3D, Construct 2, UDK, …), IDEs ( Visual Studio, Xcode)</li>
+</ol>
+</li>
+<li>Creativity in any form – Sketching, Illustrations, Story Telling, Voice Acting</li>
+<li>Playing the “damn” Game  – The more you play = The more you get the idea about how others will enjoy or treat your game. Many great game designers have written books on Gameplay Mechanics and Game Play Experience.</li>
+<li>Exercise – Crucial for health, both body and mind. In this field, our important asset to contribute is our brains. If your body is not healthy, you’ll probably suffer the Game Developer’s Block- you will run out of ideas, get irritated and depressed. Work it out champ.</li>
+</ol>
+<h2 id="STEP-2-–-Knowing-what-“Game-Developers”-do"><a href="#STEP-2-–-Knowing-what-“Game-Developers”-do" class="headerlink" title="[ STEP 2 ] – Knowing what “Game Developers” do"></a>[ STEP 2 ] – Knowing what “Game Developers” do</h2><p>Wikipedia quotes:</p>
+<blockquote>
+<p>Video game development is the process of creating a video game. Development is undertaken by a game developer, which may range from a single person to a large business. …</p>
+</blockquote>
+<p>Clearly this is way too simple for beginners to catch. So I am gonna run through very basic work each team needs to carry out :<br><strong>Video Game Developers</strong> (Devs) are those people who write bunch of codes (respectfully, program) for a game software in or out of a company.<br><strong>Artists</strong> make gun models and bullet colours. Developers make it possible for the players to fire a bullet out of a gun.<br><strong>Designer</strong>, however, work between them and set up the rules of how fast the player can fire bullets.</p>
+<p>The mainstream people have always gone to become a Game Designer by following the path of either a Game Artist or a Game Developer and excelling at it. This is purely for fallback and guidance purpose. You are free to roam around and find your own ways of achieving it.<br>So, the bottom line is, you need to know how to program. Although there are some products in the market who claim to produce games “without programming”, I would recommend against them as they will only slow you down. I am not saying they are bad and all but, there does exist fast and effective approaches than using <em>GameMaker</em> kind of products.</p>
+<p>Also, do not get tempted to freeze yourself with C++ as you might have heard that pro game developers in industries use only C++. Its a fact. Starting out with C++ will surely teach you many facets and make you technically very strong. But then again, there does exist fast and effective approaches than using hardcore beasts like C++.</p>
+<h2 id="STEP-3-–-Understanding-under-the-hood"><a href="#STEP-3-–-Understanding-under-the-hood" class="headerlink" title="[ STEP 3 ] – Understanding under-the-hood"></a>[ STEP 3 ] – Understanding under-the-hood</h2><h3 id="The-Problem"><a href="#The-Problem" class="headerlink" title="The Problem"></a>The Problem</h3><p>Some learn from text books, some from practical implementations, some from Audio-Video and Interaction. The problem is, the way of understanding and acquiring knowledge is not same and consistent for everyone.</p>
+<h3 id="Blog-to-the-rescue"><a href="#Blog-to-the-rescue" class="headerlink" title="Blog to the rescue"></a>Blog to the rescue</h3><p>Although, a fact still remains a fact for everyone. So, instead of shedding different versions of perspective over a single thing, lets think tactically and try to acquire knowledge based on patterns, guidelines and real-time implementations.</p>
+<p>This article and/or blog is way too immature to be used as a text book. Just read it whenever you feel you want to know something more. And obviously, do practice it along with because Game programming is more of a practical thing, than mere theory.</p>
+<p>You do need some basic understanding of certain things before starting out. Please review the chapters and get yourself acquainted with specified topics as it will be mentioned in the following chapters.</p>
+<h2 id="STEP-4-–-All-Hammers-and-Nails"><a href="#STEP-4-–-All-Hammers-and-Nails" class="headerlink" title="[ STEP 4 ] – All Hammers and Nails"></a>[ STEP 4 ] – All Hammers and Nails</h2><h3 id="Game-Art"><a href="#Game-Art" class="headerlink" title="Game Art:"></a>Game Art:</h3><ul>
+<li>Blender / 3DS MAX</li>
+<li>Adobe Photoshop</li>
+<li>Adobe After Effects (For Post Production)</li>
+<li>ZBrush</li>
+</ul>
+<h3 id="Game-Programming"><a href="#Game-Programming" class="headerlink" title="Game Programming:"></a>Game Programming:</h3><ul>
+<li>Combo 1: Visual C++ with DirectX 11</li>
+<li>Combo 2: Visual C++ with IrrLicht/ Ogre3D engine</li>
+<li>Combo 3: <del>Visual C# with SlimDx</del> (Discontinued)</li>
+<li>Combo 4: Visual C++ with OpenGL</li>
+<li>Combo 5: Java with openGL</li>
+<li>Combo 6: Unity3D with C#</li>
+<li>Combo 7: Unreal Engine, Blueprint</li>
+<li>… many more</li>
+</ul>
+<p>There are so many of ‘em</p>
+<p>IMHO, there are way more combo than you can imagine. You don’t need to worry about that. My Main focus will be on Unity, Unreal Engine, C++  and DirectX. Although I would introduce other software just for the sake of comparison and  introductory knowledge.</p>
+<h2 id="STEP-5-–-Get-Down’-and-Dirty"><a href="#STEP-5-–-Get-Down’-and-Dirty" class="headerlink" title="[ STEP 5 ] – Get Down’ and Dirty"></a>[ STEP 5 ] – Get Down’ and Dirty</h2><h3 id="Why-DirectX-Isn’t-OpenGL-easier"><a href="#Why-DirectX-Isn’t-OpenGL-easier" class="headerlink" title="Why DirectX? Isn’t OpenGL easier?"></a>Why DirectX? Isn’t OpenGL easier?</h3><p>I really don’t want to get in the religious debate between whether to choose DirectX or OpenGL. I really feel each has its own advantage and disadvantage. If you are more like an OpenGL person, I would recommend  you to come to this site later as I will be adding OpenGL tuts also. If you want to compare both of them, do it here.<br>And for everyone else who want to row the DirectX boat, lets get started to the amazing adventure, Lets Rock! <code>\m/</code></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/0/01/Directx9.png" alt=""></p>
+<h3 id="Wait-what-the-heck-is-this-DirectX-and-OpenGL-and-all-those-things"><a href="#Wait-what-the-heck-is-this-DirectX-and-OpenGL-and-all-those-things" class="headerlink" title="Wait, what the heck is this DirectX and OpenGL and all those things?"></a>Wait, what the heck is this DirectX and OpenGL and all those things?</h3><p>Hmm, if everything above looks alien to you, don’t panic. If you don’t know these but surely have heard of these and it is exciting your blood cells then, congratulate yourself, you do have game development in your gene.<br><em>Direct Answer</em>: DirectX (Direct3D) and OpenGL are two of the most popular Graphics APIs that help you to build amazingly super cool games. DirectX is a proprietary software by Microsoft an OpenGL is an open source library maintained by Silicon Graphics. DirectX SDK (Software Development Kit) contains many APIs ( Application Programming Interface ) such as – Direct3D, XACT3, DirectInput, etc.</p>
+<h3 id="Seriously-what-are-these-things-You-are-freaking-me-out"><a href="#Seriously-what-are-these-things-You-are-freaking-me-out" class="headerlink" title="Seriously, what are these things? You are freaking me out!"></a>Seriously, what are these things? You are freaking me out!</h3><p>Think of it as a collection of small building blocks. We place each of them on top of the other to make a big castle. It doesn’t matter what color you choose (DirectX or OpenGL), what matters is your game logic. Keep Rocking <code>\m/</code>.</p>
+<h3 id="Am-I-eligible-to-learn-these-stuff"><a href="#Am-I-eligible-to-learn-these-stuff" class="headerlink" title="Am I eligible to learn these stuff?"></a>Am I eligible to learn these stuff?</h3><p>Any one with the passion of making games is eligible. All the posts here are written keeping in mind that the reader is novice.<br>Since DirectX and OpenGL are advanced topics, it is recommended that the user knows the basics of C++ programming language like – Classes and Objects, Inheritance, Pointers etc. Posts requiring this stuff will also have a reference to a crash course. Still, Basic knowledge about C++ is highly recommended. Want to learn now – Go <a href="http://www.cprogramming.com/tutorial/lesson1.html" target="_blank" rel="external">here</a>.</p>
+<h3 id="Sources-of-this-blog"><a href="#Sources-of-this-blog" class="headerlink" title="Sources of this blog"></a>Sources of this blog</h3><p>One source is never enough. Admit it. Plus, using multiple sources lets you gain in-depth knowledge in a very reliable and easy way. I have tried to compile all the sources in to a very simple and easy manner. List of Sources:</p>
+<ul>
+<li><a href="http://www.directxtutorial.com/Tutorial11/tutorials.aspx" target="_blank" rel="external">DirectX Tutorial</a></li>
+<li><a href="http://www.rastertek.com/tutdx11.html" target="_blank" rel="external">RasterTek DirectX 11</a></li>
+<li><a href="http://www.amazon.com/Beginning-DirectX-11-Game-Programming/dp/1435458958/ref=sr_1_2?ie=UTF8&amp;qid=1347447743&amp;sr=8-2&amp;keywords=directX+11+Game+Programming" target="_blank" rel="external">Beginning DirectX 11 Game Programming (by Allen and Wendy)</a></li>
+<li><a href="http://www.microsoft.com/en-in/download/confirmation.aspx?id=6812" target="_blank" rel="external">DirectX SDK June 2010 Documentation and Samples</a></li>
+<li><a href="http://www.gamedev.net/" target="_blank" rel="external">GameDev.net</a></li>
+<li><a href="http://www.toymaker.info/Games/index.html" target="_blank" rel="external">ToyMaker.info</a></li>
+<li>Some cool friends who already know Dx</li>
+</ul>
+<h2 id="STEP-6-–-Lets-get-started"><a href="#STEP-6-–-Lets-get-started" class="headerlink" title="[ STEP 6 ] – Lets get started"></a>[ STEP 6 ] – Lets get started</h2><p>So now that you have a somewhat clear idea about making games, start small, and be ready to fail. In the next post, we will start with basic comparison, selection and configuration of different tools, install them and review their alternatives and explore more and more resources.<br>We will take a peek on conversation among high profile game developers and great people in the game Industries to motivate yourself.<br>Also, we will learn something good about being healthy.<br>So prepare yourself – mentally, physically, technically and psychologically and every damn-ally. You are going to fight, compete and also contribute to the world of Gaming and it’s Development. I wish you all the luck.</p>
+<h2 id="Homework-–-No-you-are-not-escaping-this-time-…"><a href="#Homework-–-No-you-are-not-escaping-this-time-…" class="headerlink" title="[ Homework ] – No, you are not escaping this time …"></a>[ Homework ] – No, you are not escaping this time …</h2><p>For starters, read along these pages for a reference. Feel free to choose any of them.</p>
+<ul>
+<li><a href="http://www.gamefromscratch.com/post/2011/08/04/I-want-to-be-a-game-developer.aspx" target="_blank" rel="external">I want to be a game developer</a></li>
+<li><a href="http://kotaku.com/5979539/a-beginners-guide-to-making-your-first-video-game" target="_blank" rel="external">A Beginner’s Guide To Making Your First Video Game</a></li>
+<li><a href="http://www.wikihow.com/Become-a-Video-Game-Programmer" target="_blank" rel="external">How to Become a Video Game Programmer</a></li>
+<li><a href="http://www.fastgraph.com/makegames/chapt1.html" target="_blank" rel="external">Do You Have What it Takes to Be a Game Developer?</a></li>
+<li><a href="http://www.gamasutra.com/blogs/TerryWilson/20130822/198823/Myths_around_the_Game_Development_Industry.php" target="_blank" rel="external">Myths around the Game Development Industry</a></li>
+</ul>
+<h2 id="Suggestions-Feedback-Criticism"><a href="#Suggestions-Feedback-Criticism" class="headerlink" title="[ Suggestions / Feedback / Criticism: ]"></a>[ Suggestions / Feedback / Criticism: ]</h2><p>I am open to criticism and feedbacks. If you feel that I have caught a different path somewhere in my article, feel free to contact me. If you want me to write an article concerning a very important topic, please use the forum or email me. All your feedback and suggestions are highly appreciated. Thanks.</p>
+<p>I hope I could throw some light on how to have a career as  a game developer.</p>
+<h2 id="Disclaimer"><a href="#Disclaimer" class="headerlink" title="[ Disclaimer: ]"></a>[ Disclaimer: ]</h2><p>All images used are copyrighted material. DirectX is Licensed under Microsoft.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;How-to-have-a-Career-as-a-Game-Developer&quot;&gt;&lt;a href=&quot;#How-to-have-a-Career-as-a-Game-Developer&quot; class=&quot;headerlink&quot; title=&quot;How to have a Career as a Game Developer&quot;&gt;&lt;/a&gt;How to have a Career as a Game Developer&lt;/h1&gt;&lt;h2 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;[ Introduction ]&quot;&gt;&lt;/a&gt;[ Introduction ]&lt;/h2&gt;&lt;p&gt;I don’t intend to sound formal or academic in any sense but then again, this format has already helped a lot of people(including me) so I am going to stick to it anyway.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="Career" scheme="http://debabhishek.com/tags/Career/"/>
+    
+      <category term="career in game development" scheme="http://debabhishek.com/tags/career-in-game-development/"/>
+    
+      <category term="start" scheme="http://debabhishek.com/tags/start/"/>
+    
+      <category term="bootstraping" scheme="http://debabhishek.com/tags/bootstraping/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Why work in Game Industry when IT companies pay better?</title>
+    <link href="http://debabhishek.com/2014/06/05/Why-work-in-Game-Industry-when-IT-companies-pay-better/"/>
+    <id>http://debabhishek.com/2014/06/05/Why-work-in-Game-Industry-when-IT-companies-pay-better/</id>
+    <published>2014-06-04T18:30:00.000Z</published>
+    <updated>2017-01-08T18:30:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Why-work-in-Game-Industry-when-IT-Companies-pay-better"><a href="#Why-work-in-Game-Industry-when-IT-Companies-pay-better" class="headerlink" title="Why work in Game Industry when IT Companies pay better?"></a>Why work in Game Industry when IT Companies pay better?</h1><blockquote>
+<p>there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?</p>
+</blockquote>
+<a id="more"></a>
+<p>A very interesting, and yet, disappointing question revolves me around by many friends, friends of friends, and strangers – “Why would I work in a Game Industry when IT companies are paying me better?“.</p>
+<p>Before even starting this article, I would like to highlight the fact that Game Industry doesn’t consists of only Programmers and Testers. Artists create assets and they themselves are unavoidable and priceless assets.</p>
+<p>And then, there are many more people who are deeply associated to the game industry – Musicians, Production team, FX team, Design (not limited to UI) team, and QA people, and many more. So, speaking exclusively about programmers in context of the question about Game Industry will be somewhat biased, partial and incomplete. However, for the sake of specific discussion, I assume that this question was asked by a group of people belonging to Mainstream Programming in IT industry and thinking about Game Industry as an alternative.</p>
+<p>So, coming back to the question – why work in a game industry when IT companies pay better?</p>
+<ol>
+<li>If you really <strong>are</strong> passionate about making things what you and others enjoy playing, you wouldn’t ask this question at first point. If you are okay earning money through what-so-ever way, you may want to reconsider reading this blog further <code>:P</code>. IMHO, companies in Game Industries won’t hire you if you have just played a couple of games and think, “it’ll be cool to work there”. </li>
+<li>You must play at-least that much that it compels you to think, “How did they make that s<em>*</em>” or “I wish someday I will grab a game title in a local game store that has my code written on it“. If you are even getting close to what I am trying to say, then my friend, you would NEVER EVER ask this question.</li>
+<li>Another way of looking at this could be - It depends on how much you are ready to commit to yourself about making games. <em>High pays are not always the best rewards you can get out of your work.</em> Indie Game developers keep making games no matter what. They fail a hundred times. Sometimes the art is not good enough, sometimes, the gameplay sucks, or sometimes, some crazy a$$ guy decides to leave the team in middle and flies off. But, the next day, the guys get up and start coding again! </li>
+<li>And, if you end up in big gates like EA, Activision, Criterion Studios, UbiSoft, Zynga, etc, the pay is way cooler than other software engineering disciplines.</li>
+<li>Oh and lastly, you may start with small pay, grow gradually, and end up having a lavish salary and the joy in your heart of entertaining others.</li>
+</ol>
+<p>Marc Mencer says, ” there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?</p>
+<p>The truth of the matter is that, while the skill of programming may be the same or similar, the jobs are completely different. On a game project, you have a good time working on a piece of entertainment. You also have more liberal hours and you don’t have to wear a suit to work. The bottom line is to imagine whether you would want to work on a project writing drivers for printers or on a project making the next Doom.”</p>
+<p>That explains it all why you should work in Game Industry rather than anything else even if IT Companies pay better.</p>
+<p>Still thinking why work in Game Industry when IT Companies pay better??</p>
+<p>Having said that, people working in Game Industry often go through tough times as well. Sometimes 17 hours a day. I’ve read somewhere about a wife writing a blog against EA how the manager of a certain EA studio almost ruined the life of her Husband by making him work day and night. Some companies even go bankrupt before even publishing a single game. Still, why work there? – Read again from atop!</p>
+<p>I myself belong to IT background, but, my heart is, and will always be with core game development. This is my view to clarify on what people think, misinterpret and misunderstand about the payment and comfort in Game Industry. At the end of the day, if you have no complaints over your job, consider yourself Lucky!</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Why-work-in-Game-Industry-when-IT-Companies-pay-better&quot;&gt;&lt;a href=&quot;#Why-work-in-Game-Industry-when-IT-Companies-pay-better&quot; class=&quot;headerlink&quot; title=&quot;Why work in Game Industry when IT Companies pay better?&quot;&gt;&lt;/a&gt;Why work in Game Industry when IT Companies pay better?&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="Game development as career" scheme="http://debabhishek.com/tags/Game-development-as-career/"/>
+    
+      <category term="thought" scheme="http://debabhishek.com/tags/thought/"/>
+    
+      <category term="why game development" scheme="http://debabhishek.com/tags/why-game-development/"/>
+    
+      <category term="motivation" scheme="http://debabhishek.com/tags/motivation/"/>
+    
+      <category term="career" scheme="http://debabhishek.com/tags/career/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Move a GameObject relative to its facing direction in Unity</title>
+    <link href="http://debabhishek.com/2014/06/01/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/"/>
+    <id>http://debabhishek.com/2014/06/01/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/</id>
+    <published>2014-05-31T18:30:00.000Z</published>
+    <updated>2017-01-11T20:01:25.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="The-Scenario"><a href="#The-Scenario" class="headerlink" title="The Scenario"></a>The Scenario</h1><p>Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.</p>
+<a id="more"></a>
+<p>If the game is such that the player can simultaneously move on x and z direction, you can independently setup the movement physics code. Turning around would be used by the mouse itself so you just need to setup a mouse-look script on the camera. Here the Turning around is a continuous task (e.g. Crysis, COD, Project IGI).</p>
+<p>e.g.<br><figure class="highlight mathematica"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//Moving <span class="keyword">Forward</span></div><div class="line"> rigidbody.AddForce(Vector3.forward* <span class="keyword">Input</span>.GetAxis(“<span class="keyword">Vertical</span>”)*<span class="number">400</span>);</div><div class="line"></div><div class="line">//Turning Around</div><div class="line">rigidbody.AddForce(Vector3.right* <span class="keyword">Input</span>.GetAxis(“<span class="keyword">Horizontal</span>”)*<span class="number">400</span>);</div></pre></td></tr></table></figure></p>
+<p>But there may be a problem if you want to make a game where the mouse-look isn’t really needed and the turning happens discretely by user input and based on the direction the player is facing, he is needed to move forward (e.g. Temple Run).</p>
+<h1 id="The-Solution"><a href="#The-Solution" class="headerlink" title="The Solution"></a>The Solution</h1><p>Now you can either use global variables to keep reference of the direction the player gameObject is facing, or use simple and more natural logic to move it, using the following scripts.</p>
+<h2 id="Case-I"><a href="#Case-I" class="headerlink" title="Case I"></a>Case I</h2><p>If you are manipulating the position directly, you can move a gameobject relative to its facing direction by using transform.forward instead of Vector3.forward in the scripting.</p>
+<p>e.g.<br><figure class="highlight maxima"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">transform</span>.<span class="built_in">position</span>=Vector3.Lerp(<span class="built_in">transform</span>.<span class="built_in">position</span>,<span class="built_in">transform</span>.forward,Time.deltaTime);</div></pre></td></tr></table></figure></p>
+<h3 id="Case-II"><a href="#Case-II" class="headerlink" title="Case II"></a>Case II</h3><p>If your code is using physics, use rigidbody.AddRelativeForce rather than rigidbody.AddForce</p>
+<p>e.g.</p>
+<pre><code>rigidbody.AddRelativeForce(Vector3.forward*30);
+</code></pre><h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>The scripts are intended for 3D Environment. But changing them for 2D is easy. I will try to provide 2D examples too if I find suitable time.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;The-Scenario&quot;&gt;&lt;a href=&quot;#The-Scenario&quot; class=&quot;headerlink&quot; title=&quot;The Scenario&quot;&gt;&lt;/a&gt;The Scenario&lt;/h1&gt;&lt;p&gt;Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
+    
+    
+      <category term="movement" scheme="http://debabhishek.com/tags/movement/"/>
+    
+      <category term="transform" scheme="http://debabhishek.com/tags/transform/"/>
+    
+      <category term="unity3d" scheme="http://debabhishek.com/tags/unity3d/"/>
+    
+      <category term="unity" scheme="http://debabhishek.com/tags/unity/"/>
+    
+      <category term="physics" scheme="http://debabhishek.com/tags/physics/"/>
+    
+      <category term="rigidbody" scheme="http://debabhishek.com/tags/rigidbody/"/>
+    
+      <category term="C#" scheme="http://debabhishek.com/tags/C/"/>
+    
+  </entry>
+  
+</feed>
