@@ -75,3 +75,8 @@ deploy:
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
 
+
+admin:
+  username: abhishekdeb
+  password_hash: $2y$10$2PgICSc71zmQ4EzbisKZT.beaddQ5BrqbpUYehwctOoUu0DCA2fOS
+  secret: 2H8HJH6GJ__$LKNJ#JKNJKKB$5a3
