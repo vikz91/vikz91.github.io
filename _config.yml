@@ -5,7 +5,8 @@
 # Site
 title: Abhishek Deb
 subtitle: Dreamer / Designer / Developer
-description:
+description: Sr. Developer @ Plexus 365
+description2: Author @ yo restgoose
 author: Abhishek Deb 
 language: en
 timezone:
@@ -14,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://debabhishek.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: /writes/:title/
 permalink_defaults:
 
 # Directory
@@ -40,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 
