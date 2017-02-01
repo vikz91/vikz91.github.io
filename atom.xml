@@ -17,8 +17,8 @@
   
   <entry>
     <title>Installing and Running TextSecure (Signal) Server on Windows</title>
-    <link href="http://debabhishek.com/2017/02/01/Installing-and-Running-TextSecure-Signal-Server-on-Windows/"/>
-    <id>http://debabhishek.com/2017/02/01/Installing-and-Running-TextSecure-Signal-Server-on-Windows/</id>
+    <link href="http://debabhishek.com//writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/"/>
+    <id>http://debabhishek.com//writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/</id>
     <published>2017-02-01T00:31:48.000Z</published>
     <updated>2017-02-01T00:42:21.000Z</updated>
     
@@ -105,8 +105,8 @@
   
   <entry>
     <title>Rapid NodeJS REST API Server generator with generator-restgoose and yo</title>
-    <link href="http://debabhishek.com/2016/06/29/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/"/>
-    <id>http://debabhishek.com/2016/06/29/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/</id>
+    <link href="http://debabhishek.com//writes/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/"/>
+    <id>http://debabhishek.com//writes/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/</id>
     <published>2016-06-28T18:30:00.000Z</published>
     <updated>2017-01-31T19:25:20.000Z</updated>
     
@@ -282,8 +282,8 @@
   
   <entry>
     <title>Get List of USB Drives in Linux Terminal, and mount them</title>
-    <link href="http://debabhishek.com/2016/03/24/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/"/>
-    <id>http://debabhishek.com/2016/03/24/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/</id>
+    <link href="http://debabhishek.com//writes/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/"/>
+    <id>http://debabhishek.com//writes/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/</id>
     <published>2016-03-24T18:24:50.000Z</published>
     <updated>2017-01-31T18:30:41.000Z</updated>
     
@@ -315,8 +315,8 @@
   
   <entry>
     <title>Simple REST Client for Unity</title>
-    <link href="http://debabhishek.com/2015/04/22/Simple-REST-Client-for-Unity/"/>
-    <id>http://debabhishek.com/2015/04/22/Simple-REST-Client-for-Unity/</id>
+    <link href="http://debabhishek.com//writes/Simple-REST-Client-for-Unity/"/>
+    <id>http://debabhishek.com//writes/Simple-REST-Client-for-Unity/</id>
     <published>2015-04-22T18:20:17.000Z</published>
     <updated>2017-01-31T18:30:48.000Z</updated>
     
@@ -336,13 +336,13 @@
       <category term="Game Development" scheme="http://debabhishek.com/categories/Game-Development/"/>
     
     
-      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
-    
       <category term="unity3d" scheme="http://debabhishek.com/tags/unity3d/"/>
     
       <category term="unity" scheme="http://debabhishek.com/tags/unity/"/>
     
       <category term="C#" scheme="http://debabhishek.com/tags/C/"/>
+    
+      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
     
       <category term="NET" scheme="http://debabhishek.com/tags/NET/"/>
     
@@ -352,8 +352,8 @@
   
   <entry>
     <title>#GameDevStream – 01. Catch The Egg</title>
-    <link href="http://debabhishek.com/2015/03/28/GameDevStream-%E2%80%93-01-Catch-The-Egg/"/>
-    <id>http://debabhishek.com/2015/03/28/GameDevStream-–-01-Catch-The-Egg/</id>
+    <link href="http://debabhishek.com//writes/GameDevStream-%E2%80%93-01-Catch-The-Egg/"/>
+    <id>http://debabhishek.com//writes/GameDevStream-–-01-Catch-The-Egg/</id>
     <published>2015-03-27T19:23:00.000Z</published>
     <updated>2017-01-11T20:00:47.000Z</updated>
     
@@ -388,8 +388,8 @@
   
   <entry>
     <title>Game Flow Design for mobiles</title>
-    <link href="http://debabhishek.com/2015/02/17/Game-Flow-Design-for-mobiles/"/>
-    <id>http://debabhishek.com/2015/02/17/Game-Flow-Design-for-mobiles/</id>
+    <link href="http://debabhishek.com//writes/Game-Flow-Design-for-mobiles/"/>
+    <id>http://debabhishek.com//writes/Game-Flow-Design-for-mobiles/</id>
     <published>2015-02-16T18:57:51.000Z</published>
     <updated>2017-01-11T20:01:45.000Z</updated>
     
@@ -434,8 +434,8 @@
   
   <entry>
     <title>_unity : Utility Library for Unity 3D</title>
-    <link href="http://debabhishek.com/2014/08/15/unity-Utility-Library-for-Unity-3D/"/>
-    <id>http://debabhishek.com/2014/08/15/unity-Utility-Library-for-Unity-3D/</id>
+    <link href="http://debabhishek.com//writes/unity-Utility-Library-for-Unity-3D/"/>
+    <id>http://debabhishek.com//writes/unity-Utility-Library-for-Unity-3D/</id>
     <published>2014-08-14T18:41:16.000Z</published>
     <updated>2017-01-11T20:01:19.000Z</updated>
     
@@ -489,8 +489,8 @@
   
   <entry>
     <title>Lifesaver tools and scripts</title>
-    <link href="http://debabhishek.com/2014/08/05/Lifesaver-tools-and-scripts/"/>
-    <id>http://debabhishek.com/2014/08/05/Lifesaver-tools-and-scripts/</id>
+    <link href="http://debabhishek.com//writes/Lifesaver-tools-and-scripts/"/>
+    <id>http://debabhishek.com//writes/Lifesaver-tools-and-scripts/</id>
     <published>2014-08-05T18:24:33.000Z</published>
     <updated>2017-01-11T20:01:31.000Z</updated>
     
@@ -545,8 +545,8 @@
   
   <entry>
     <title>Effective Unity Folder Structure </title>
-    <link href="http://debabhishek.com/2014/07/28/Effective-Unity-Folder-Structure/"/>
-    <id>http://debabhishek.com/2014/07/28/Effective-Unity-Folder-Structure/</id>
+    <link href="http://debabhishek.com//writes/Effective-Unity-Folder-Structure/"/>
+    <id>http://debabhishek.com//writes/Effective-Unity-Folder-Structure/</id>
     <published>2014-07-28T06:55:35.000Z</published>
     <updated>2017-01-11T20:01:53.000Z</updated>
     
@@ -577,8 +577,8 @@
   
   <entry>
     <title>How to have a Career as a Game Developer</title>
-    <link href="http://debabhishek.com/2014/06/20/How-to-have-a-Career-as-a-Game-Developer/"/>
-    <id>http://debabhishek.com/2014/06/20/How-to-have-a-Career-as-a-Game-Developer/</id>
+    <link href="http://debabhishek.com//writes/How-to-have-a-Career-as-a-Game-Developer/"/>
+    <id>http://debabhishek.com//writes/How-to-have-a-Career-as-a-Game-Developer/</id>
     <published>2014-06-19T18:30:00.000Z</published>
     <updated>2017-02-01T00:19:22.000Z</updated>
     
@@ -691,8 +691,8 @@
   
   <entry>
     <title>Why work in Game Industry when IT companies pay better?</title>
-    <link href="http://debabhishek.com/2014/06/05/Why-work-in-Game-Industry-when-IT-companies-pay-better/"/>
-    <id>http://debabhishek.com/2014/06/05/Why-work-in-Game-Industry-when-IT-companies-pay-better/</id>
+    <link href="http://debabhishek.com//writes/Why-work-in-Game-Industry-when-IT-companies-pay-better/"/>
+    <id>http://debabhishek.com//writes/Why-work-in-Game-Industry-when-IT-companies-pay-better/</id>
     <published>2014-06-04T18:30:00.000Z</published>
     <updated>2017-01-08T18:30:00.000Z</updated>
     
@@ -744,8 +744,8 @@
   
   <entry>
     <title>Move a GameObject relative to its facing direction in Unity</title>
-    <link href="http://debabhishek.com/2014/06/01/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/"/>
-    <id>http://debabhishek.com/2014/06/01/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/</id>
+    <link href="http://debabhishek.com//writes/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/"/>
+    <id>http://debabhishek.com//writes/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/</id>
     <published>2014-05-31T18:30:00.000Z</published>
     <updated>2017-01-11T20:01:25.000Z</updated>
     
