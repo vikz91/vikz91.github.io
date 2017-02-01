@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://debabhishek.com/"/>
-  <updated>2017-02-01T00:35:55.000Z</updated>
+  <updated>2017-02-01T00:37:56.000Z</updated>
   <id>http://debabhishek.com/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="http://debabhishek.com/2017/02/01/Installing-and-Running-TextSecure-Signal-Server-on-Windows/"/>
     <id>http://debabhishek.com/2017/02/01/Installing-and-Running-TextSecure-Signal-Server-on-Windows/</id>
     <published>2017-02-01T00:31:48.000Z</published>
-    <updated>2017-02-01T00:35:55.000Z</updated>
+    <updated>2017-02-01T00:37:56.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Installing-and-Running-TextSecure-Signal-Server-on-Windows"><a href="#Installing-and-Running-TextSecure-Signal-Server-on-Windows" class="headerlink" title="Installing and Running TextSecure (Signal) Server on Windows"></a>Installing and Running TextSecure (Signal) Server on Windows</h1><p>While working at <a href="http://plexus365.com/" target="_blank" rel="external">Plexus</a>, I had to implement Signal Server’s end to end encryption on certain project. Though Open Whisper System had the code in <a href="https://github.com/WhisperSystems/Signal-Server" target="_blank" rel="external">github</a>, the instructions were quite unclearn on installing the server on local machine. I stumbled upon Lucaconte’s Github post and got this amazing guide. So this is my take on installing TextSecure (Signal) Server on a local Windows 10 machine. </p>
+<a id="more"></a>
 <h2 id="Meta"><a href="#Meta" class="headerlink" title="Meta"></a>Meta</h2><ul>
 <li>Author: Abhishek Deb(vikz91.deb@gmail.com, abhishek@plexus365.com)  </li>
 <li>Date: 1st Feb 2017</li>
@@ -85,7 +86,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;Installing-and-Running-TextSecure-Signal-Server-on-Windows&quot;&gt;&lt;a href=&quot;#Installing-and-Running-TextSecure-Signal-Server-on-Windows&quot; cl
+      &lt;h1 id=&quot;Installing-and-Running-TextSecure-Signal-Server-on-Windows&quot;&gt;&lt;a href=&quot;#Installing-and-Running-TextSecure-Signal-Server-on-Windows&quot; class=&quot;headerlink&quot; title=&quot;Installing and Running TextSecure (Signal) Server on Windows&quot;&gt;&lt;/a&gt;Installing and Running TextSecure (Signal) Server on Windows&lt;/h1&gt;&lt;p&gt;While working at &lt;a href=&quot;http://plexus365.com/&quot;&gt;Plexus&lt;/a&gt;, I had to implement Signal Server’s end to end encryption on certain project. Though Open Whisper System had the code in &lt;a href=&quot;https://github.com/WhisperSystems/Signal-Server&quot;&gt;github&lt;/a&gt;, the instructions were quite unclearn on installing the server on local machine. I stumbled upon Lucaconte’s Github post and got this amazing guide. So this is my take on installing TextSecure (Signal) Server on a local Windows 10 machine. &lt;/p&gt;
     
     </summary>
     
