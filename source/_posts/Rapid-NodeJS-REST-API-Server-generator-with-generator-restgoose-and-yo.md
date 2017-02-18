@@ -1,25 +1,27 @@
----
 title: Rapid NodeJS REST API Server generator with generator-restgoose and yo
-tags: 
-- node js
-- nodeJS
-- API
-- Code Generator
-- yo
-- mongoose
-- REST API
-- doc generator
+tags:
+  - node js
+  - nodeJS
+  - API
+  - Code Generator
+  - yo
+  - mongoose
+  - REST API
+  - doc generator
 category: NodeJS
-
-date: 2016-06-29 
+date: 2016-06-29 00:00:00
 ---
-
 # Rapid NodeJS REST API Server generator with generator-restgoose and yo
 
 [![Build Status](https://travis-ci.org/vikz91/generator-restgoose.svg?branch=master)](https://travis-ci.org/vikz91/generator-restgoose) [![npm version](https://badge.fury.io/js/generator-restgoose.svg)](https://badge.fury.io/js/generator-restgoose) [![Join the chat at https://gitter.im/generator-restgoose/Lobby](https://badges.gitter.im/generator-restgoose/Lobby.svg)](https://gitter.im/generator-restgoose/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
-<a href="https://github.com/vikz91/generator-restgoose"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+<a href="https://github.com/vikz91/generator-restgoose" class="nofancybox" target="_blank" rel="external" >
+<img class="nofancybox"  style=" position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub" >
+</a>
+
+
+
 
 So I just finished writing and testing the all new generator-restgoose, inspired (forked) from Antonio. I basically changed the core pattern of how MVC code is generated and segregated them, optimized and upgraded many deprecated code, and updated the mocha test. Here is the Rapid NodeJS REST Server generator I have been talking about.
 
@@ -27,6 +29,7 @@ So I just finished writing and testing the all new generator-restgoose, inspired
 
 [![NPM](https://nodei.co/npm/generator-restgoose.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-restgoose/)  
 
+[Github](https://github.com/vikz91/generator-restgoose)
 
 **Minimum Node Version : 4.x   
 Minimum NPM Version : 3.x**
