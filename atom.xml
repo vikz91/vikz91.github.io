@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://debabhishek.com/"/>
-  <updated>2017-02-01T20:50:51.000Z</updated>
+  <updated>2017-02-18T22:26:54.000Z</updated>
   <id>http://debabhishek.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://debabhishek.com//writes/Phonegap-Tutorial-for-a-busy-programmer/"/>
     <id>http://debabhishek.com//writes/Phonegap-Tutorial-for-a-busy-programmer/</id>
     <published>2017-02-01T19:58:48.000Z</published>
-    <updated>2017-02-01T20:50:51.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="As-the-title-says-lets-get-to-it-right-away"><a href="#As-the-title-says-lets-get-to-it-right-away" class="headerlink" title="As the title says, lets get to it right away"></a>As the title says, lets get to it right away</h2><p>As <a href="http://phonegap.com/about/" target="_blank" rel="external">they</a> say, “Building applications for each platform–iPhone, Android, Windows and more–requires different frameworks and languages. PhoneGap solves this by using standards-based web technologies to bridge web applications and mobile devices. “</p>
 <a id="more"></a>
@@ -42,7 +42,8 @@
 <li>Install <a href="https://developer.android.com/studio/index.html" target="_blank" rel="external">Android SDK</a> <code>You don&#39;t need Android Studio but it eases a lot of stuff</code></li>
 <li>Install <a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" target="_blank" rel="external">JDK</a></li>
 <li>Make Sure JAVA environment variables and ANT is properly set in <a href="https://www.mkyong.com/ant/how-to-install-apache-ant-on-windows/" target="_blank" rel="external">windows</a> and <a href="http://www.sajeconsultants.com/how-to-set-java_home-on-mac-os-x/" target="_blank" rel="external">Mac</a></li>
-<li>Reboot PC (sometimes it needs it)</li>
+<li>Reboot PC (optional)</li>
+<li>npm install -g phonegap // install phonegap globally </li>
 </ol>
 <h2 id="First-‘Hello-World’"><a href="#First-‘Hello-World’" class="headerlink" title="First ‘Hello World’"></a>First ‘Hello World’</h2><ol>
 <li>In Terminal, create a new directory for your projects <code>mkdir phonegapApps &amp;&amp; cd phonegapApps</code></li>
@@ -65,7 +66,7 @@
 <li>More guidelines will be coming up.</li>
 </ol>
 <h2 id="But-why-though"><a href="#But-why-though" class="headerlink" title="But why though?"></a>But why though?</h2><p>A firend of mine (yes, its you bittu) needed a quick cheat sheet for phonegap as he is very busy with his work. So hence, this is it.<br><img src="https://media.giphy.com/media/CEF7ocyS0C9q/200_s.gif" alt="Deal with it"></p>
-<h2 id="Bump"><a href="#Bump" class="headerlink" title="Bump"></a>Bump</h2><p>A full tutorial on making a chat app in phonegap will be uploaded in near future that will use Socket.IO, Phone Number Verification and end-to-end encryption (like whatsapp).</p>
+<h2 id="Bump"><a href="#Bump" class="headerlink" title="Bump"></a>Bump</h2><p>A full tutorial on making a chat app in phonegap will be uploaded in near future that will use Socket.IO, Phone Number Verification and end-to-end encryption using <a href="http://debabhishek.com/writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/">signal server</a>.</p>
 ]]></content>
     
     <summary type="html">
@@ -92,7 +93,7 @@
     <link href="http://debabhishek.com//writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/"/>
     <id>http://debabhishek.com//writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/</id>
     <published>2017-02-01T00:13:06.000Z</published>
-    <updated>2017-02-01T01:33:24.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Installing-and-Running-TextSecure-Signal-Server-on-Windows"><a href="#Installing-and-Running-TextSecure-Signal-Server-on-Windows" class="headerlink" title="Installing and Running TextSecure (Signal) Server on Windows"></a>Installing and Running TextSecure (Signal) Server on Windows</h1><p>While working at <a href="http://plexus365.com/" target="_blank" rel="external">Plexus</a>, I had to implement Signal Server’s end to end encryption on certain project. Though Open Whisper System had the code in <a href="https://github.com/WhisperSystems/Signal-Server" target="_blank" rel="external">github</a>, the instructions were quite unclear on installing the server on local machine. I stumbled upon few Github posts and got this amazing guide. So this is my take on installing TextSecure (Signal) Server on a local Windows 10 machine. </p>
 <a id="more"></a>
@@ -180,13 +181,14 @@
     <link href="http://debabhishek.com//writes/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/"/>
     <id>http://debabhishek.com//writes/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/</id>
     <published>2016-06-28T18:30:00.000Z</published>
-    <updated>2017-01-31T19:25:20.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo"><a href="#Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo" class="headerlink" title="Rapid NodeJS REST API Server generator with generator-restgoose and yo"></a>Rapid NodeJS REST API Server generator with generator-restgoose and yo</h1><p><a href="https://travis-ci.org/vikz91/generator-restgoose" target="_blank" rel="external"><img src="https://travis-ci.org/vikz91/generator-restgoose.svg?branch=master" alt="Build Status"></a> <a href="https://badge.fury.io/js/generator-restgoose" target="_blank" rel="external"><img src="https://badge.fury.io/js/generator-restgoose.svg" alt="npm version"></a> <a href="https://gitter.im/generator-restgoose/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" target="_blank" rel="external"><img src="https://badges.gitter.im/generator-restgoose/Lobby.svg" alt="Join the chat at https://gitter.im/generator-restgoose/Lobby"></a></p>
-<p><a href="https://github.com/vikz91/generator-restgoose" target="_blank" rel="external"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a></p>
+<p><a href="https://github.com/vikz91/generator-restgoose" class="nofancybox" target="_blank" rel="external"><br><img class="nofancybox" style=" position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"><br></a></p>
 <p>So I just finished writing and testing the all new generator-restgoose, inspired (forked) from Antonio. I basically changed the core pattern of how MVC code is generated and segregated them, optimized and upgraded many deprecated code, and updated the mocha test. Here is the Rapid NodeJS REST Server generator I have been talking about.</p>
 <a id="more"></a>
 <p><a href="https://nodei.co/npm/generator-restgoose/" target="_blank" rel="external"><img src="https://nodei.co/npm/generator-restgoose.png?downloads=true&amp;downloadRank=true&amp;stars=true" alt="NPM"></a>  </p>
+<p><a href="https://github.com/vikz91/generator-restgoose" target="_blank" rel="external">Github</a></p>
 <p><strong>Minimum Node Version : 4.x<br>Minimum NPM Version : 3.x</strong></p>
 <h2 id="Quick-Links"><a href="#Quick-Links" class="headerlink" title="Quick Links"></a>Quick Links</h2><p>If you would like to contribute, please refer to <a href="https://github.com/vikz91/generator-restgoose/wiki/Guidelines" target="_blank" rel="external">guidelines</a> and a list of <a href="https://github.com/vikz91/generator-restgoose/issues?q=is%3Aopen+is%3Aissue" target="_blank" rel="external">open tasks</a>.</p>
 <p>For more information, please refer to the <a href="https://github.com/vikz91/generator-restgoose/wiki" target="_blank" rel="external">Wiki page</a> and <a href="https://github.com/vikz91/generator-restgoose/wiki/FAQ" target="_blank" rel="external">FAQ</a> </p>
@@ -326,7 +328,7 @@
     <summary type="html">
     
       &lt;h1 id=&quot;Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo&quot;&gt;&lt;a href=&quot;#Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo&quot; class=&quot;headerlink&quot; title=&quot;Rapid NodeJS REST API Server generator with generator-restgoose and yo&quot;&gt;&lt;/a&gt;Rapid NodeJS REST API Server generator with generator-restgoose and yo&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://travis-ci.org/vikz91/generator-restgoose&quot;&gt;&lt;img src=&quot;https://travis-ci.org/vikz91/generator-restgoose.svg?branch=master&quot; alt=&quot;Build Status&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://badge.fury.io/js/generator-restgoose&quot;&gt;&lt;img src=&quot;https://badge.fury.io/js/generator-restgoose.svg&quot; alt=&quot;npm version&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://gitter.im/generator-restgoose/Lobby?utm_source=badge&amp;amp;utm_medium=badge&amp;amp;utm_campaign=pr-badge&amp;amp;utm_content=badge&quot;&gt;&lt;img src=&quot;https://badges.gitter.im/generator-restgoose/Lobby.svg&quot; alt=&quot;Join the chat at https://gitter.im/generator-restgoose/Lobby&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/vikz91/generator-restgoose&quot;&gt;&lt;img style=&quot;position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67&quot; alt=&quot;Fork me on GitHub&quot; data-canonical-src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/vikz91/generator-restgoose&quot; class=&quot;nofancybox&quot; target=&quot;_blank&quot; rel=&quot;external&quot; &gt;&lt;br&gt;&lt;img class=&quot;nofancybox&quot;  style=&quot; position: absolute; top: 0; right: 0; border: 0;&quot; src=&quot;https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png&quot; alt=&quot;Fork me on GitHub&quot; &gt;&lt;br&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;So I just finished writing and testing the all new generator-restgoose, inspired (forked) from Antonio. I basically changed the core pattern of how MVC code is generated and segregated them, optimized and upgraded many deprecated code, and updated the mocha test. Here is the Rapid NodeJS REST Server generator I have been talking about.&lt;/p&gt;
     
     </summary>
@@ -334,11 +336,11 @@
       <category term="NodeJS" scheme="http://debabhishek.com/categories/NodeJS/"/>
     
     
-      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
-    
       <category term="node js" scheme="http://debabhishek.com/tags/node-js/"/>
     
       <category term="nodeJS" scheme="http://debabhishek.com/tags/nodeJS/"/>
+    
+      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
     
       <category term="Code Generator" scheme="http://debabhishek.com/tags/Code-Generator/"/>
     
@@ -357,7 +359,7 @@
     <link href="http://debabhishek.com//writes/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/"/>
     <id>http://debabhishek.com//writes/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/</id>
     <published>2016-03-24T18:24:50.000Z</published>
-    <updated>2017-01-31T18:30:41.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them"><a href="#Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them" class="headerlink" title="Get List of USB Drives in Linux Terminal, and mount them"></a>Get List of USB Drives in Linux Terminal, and mount them</h1><p>Get List of USB Drives in Linux Terminal, and mount them<br>Instead of using lsusb, use the following command to get a comma separated list of USB disk drives,</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ lsblk | grep “sd[^a]” | tail -n +2 | cut -c7-10 | sed ‘/^ $/d’ | paste <span class="_">-s</span> <span class="_">-d</span>,</div></pre></td></tr></table></figure>
@@ -390,7 +392,7 @@
     <link href="http://debabhishek.com//writes/Simple-REST-Client-for-Unity/"/>
     <id>http://debabhishek.com//writes/Simple-REST-Client-for-Unity/</id>
     <published>2015-04-22T18:20:17.000Z</published>
-    <updated>2017-01-31T18:30:48.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Simple-REST-Utility-for-Unity"><a href="#Simple-REST-Utility-for-Unity" class="headerlink" title="Simple REST Utility for Unity"></a>Simple REST Utility for Unity</h1><h3 id="History"><a href="#History" class="headerlink" title="History:"></a>History:</h3><p>Recently I needed a script though which I could easily get and send data to a REST Server. I picked my fav environment: MEAN. using Yeoman, I quickly implemented a simplistic REST Server, which will serve all data for my Unity WebPlayer Build. So here goes my take on a simple REST Utility for Unity.</p>
 <a id="more"></a>
@@ -414,11 +416,11 @@
     
       <category term="C#" scheme="http://debabhishek.com/tags/C/"/>
     
+      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
+    
       <category term="NET" scheme="http://debabhishek.com/tags/NET/"/>
     
       <category term="REST Client" scheme="http://debabhishek.com/tags/REST-Client/"/>
-    
-      <category term="API" scheme="http://debabhishek.com/tags/API/"/>
     
   </entry>
   
@@ -427,7 +429,7 @@
     <link href="http://debabhishek.com//writes/GameDevStream-%E2%80%93-01-Catch-The-Egg/"/>
     <id>http://debabhishek.com//writes/GameDevStream-–-01-Catch-The-Egg/</id>
     <published>2015-03-27T19:23:00.000Z</published>
-    <updated>2017-01-11T20:00:47.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="GameDevStream-–-01-Catch-The-Egg"><a href="#GameDevStream-–-01-Catch-The-Egg" class="headerlink" title="#GameDevStream – 01. Catch The Egg"></a>#GameDevStream – 01. Catch The Egg</h1><p>GameDevStream is a series of Live Video Streams of Indie Game Development. This is the first video of a casual game “Catch The Egg”. Use the arrow buttons to move the basket left or right and try to actually “catch the egg” (s) to score higher.</p>
 <a id="more"></a>
@@ -463,7 +465,7 @@
     <link href="http://debabhishek.com//writes/Game-Flow-Design-for-mobiles/"/>
     <id>http://debabhishek.com//writes/Game-Flow-Design-for-mobiles/</id>
     <published>2015-02-16T18:57:51.000Z</published>
-    <updated>2017-01-11T20:01:45.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Game-Flow-Design-for-mobiles"><a href="#Game-Flow-Design-for-mobiles" class="headerlink" title="Game Flow Design for mobiles"></a>Game Flow Design for mobiles</h1><p>Recently while making one of my games,  my team felt the need to have a standardized game Flow Diagram so that every one in the team clearly understands how the game progression works, and which screens comes after which one. </p>
 <a id="more"></a>
@@ -509,7 +511,7 @@
     <link href="http://debabhishek.com//writes/unity-Utility-Library-for-Unity-3D/"/>
     <id>http://debabhishek.com//writes/unity-Utility-Library-for-Unity-3D/</id>
     <published>2014-08-14T18:41:16.000Z</published>
-    <updated>2017-01-11T20:01:19.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="unity-Utility-Library-for-Unity-3D"><a href="#unity-Utility-Library-for-Unity-3D" class="headerlink" title="_unity : Utility Library for Unity 3D"></a>_unity : Utility Library for Unity 3D</h1><p>This is my take on a utility library for Unity Engine. It has some GUI Scaling Utility Methods, some Debugging Methods, Array Utilities and some other cool stuff like finite state machine, generic singletons, Event Messaging, and etc. </p>
 <a id="more"></a>
@@ -564,7 +566,7 @@
     <link href="http://debabhishek.com//writes/Lifesaver-tools-and-scripts/"/>
     <id>http://debabhishek.com//writes/Lifesaver-tools-and-scripts/</id>
     <published>2014-08-05T18:24:33.000Z</published>
-    <updated>2017-01-11T20:01:31.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Lifesaver-tools-and-scripts"><a href="#Lifesaver-tools-and-scripts" class="headerlink" title="Lifesaver tools and scripts"></a>Lifesaver tools and scripts</h1><p>Here are some cool and “must-have” tools, scripts, and Lifesaver plugins that will save your from pulling your hairs out. All of these are FREE.</p>
 <a id="more"></a>
@@ -620,7 +622,7 @@
     <link href="http://debabhishek.com//writes/Effective-Unity-Folder-Structure/"/>
     <id>http://debabhishek.com//writes/Effective-Unity-Folder-Structure/</id>
     <published>2014-07-28T06:55:35.000Z</published>
-    <updated>2017-01-11T20:01:53.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Effective-Unity-Folder-Structure"><a href="#Effective-Unity-Folder-Structure" class="headerlink" title="Effective Unity Folder Structure"></a>Effective Unity Folder Structure</h1><p>There are many types of structures, being used by so many people. Some are categorize by file types, some by tags, and some by the relations. However, I found the following folder structure to be very efficient.</p>
 <a id="more"></a>
@@ -652,7 +654,7 @@
     <link href="http://debabhishek.com//writes/How-to-have-a-Career-as-a-Game-Developer/"/>
     <id>http://debabhishek.com//writes/How-to-have-a-Career-as-a-Game-Developer/</id>
     <published>2014-06-19T18:30:00.000Z</published>
-    <updated>2017-02-01T00:19:22.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="How-to-have-a-Career-as-a-Game-Developer"><a href="#How-to-have-a-Career-as-a-Game-Developer" class="headerlink" title="How to have a Career as a Game Developer"></a>How to have a Career as a Game Developer</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="[ Introduction ]"></a>[ Introduction ]</h2><p>I don’t intend to sound formal or academic in any sense but then again, this format has already helped a lot of people(including me) so I am going to stick to it anyway.</p>
 <a id="more"></a>
@@ -819,7 +821,7 @@
     <link href="http://debabhishek.com//writes/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/"/>
     <id>http://debabhishek.com//writes/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/</id>
     <published>2014-05-31T18:30:00.000Z</published>
-    <updated>2017-01-11T20:01:25.000Z</updated>
+    <updated>2017-02-18T22:26:54.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="The-Scenario"><a href="#The-Scenario" class="headerlink" title="The Scenario"></a>The Scenario</h1><p>Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.</p>
 <a id="more"></a>

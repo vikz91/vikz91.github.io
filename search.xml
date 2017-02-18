@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[Phonegap Tutorial for a busy programmer]]></title>
+      <url>http://debabhishek.com//writes/Phonegap-Tutorial-for-a-busy-programmer/</url>
+      <content type="html"><![CDATA[<h2 id="As-the-title-says-lets-get-to-it-right-away"><a href="#As-the-title-says-lets-get-to-it-right-away" class="headerlink" title="As the title says, lets get to it right away"></a>As the title says, lets get to it right away</h2><p>As <a href="http://phonegap.com/about/" target="_blank" rel="external">they</a> say, “Building applications for each platform–iPhone, Android, Windows and more–requires different frameworks and languages. PhoneGap solves this by using standards-based web technologies to bridge web applications and mobile devices. “</p>
+<a id="more"></a>
+<h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><p>This tutorial is for Android till now. iOS codes will be updated as soon as you gift me an iPhone :P</p>
+<h2 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><ol>
+<li>NodeJS &gt;= 4.x</li>
+<li>npm &gt;= 3.x</li>
+<li>A good text editor (hint: Sublime)</li>
+<li>Chrome (works best)</li>
+<li>Basic Terminal Commands (cd, ls, etc.)</li>
+<li>Android SDK</li>
+<li>JDK &gt;= 7</li>
+<li>Ant (optional)</li>
+</ol>
+<h2 id="Setting-up-Environment"><a href="#Setting-up-Environment" class="headerlink" title="Setting up Environment"></a>Setting up Environment</h2><ol>
+<li>Install <a href="https://nodejs.org/en/" target="_blank" rel="external">NodeJS</a></li>
+<li>Update NPM ( node Package Manager)<br> a. Mac : <code>npm install -g npm</code><br> b: Others: <code>npm update -g npm</code></li>
+<li>Install Sublime Text Editor or <a href="https://atom.io/" target="_blank" rel="external">Atom</a></li>
+<li>Install <a href="https://developer.android.com/studio/index.html" target="_blank" rel="external">Android SDK</a> <code>You don&#39;t need Android Studio but it eases a lot of stuff</code></li>
+<li>Install <a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" target="_blank" rel="external">JDK</a></li>
+<li>Make Sure JAVA environment variables and ANT is properly set in <a href="https://www.mkyong.com/ant/how-to-install-apache-ant-on-windows/" target="_blank" rel="external">windows</a> and <a href="http://www.sajeconsultants.com/how-to-set-java_home-on-mac-os-x/" target="_blank" rel="external">Mac</a></li>
+<li>Reboot PC (optional)</li>
+<li>npm install -g phonegap // install phonegap globally </li>
+</ol>
+<h2 id="First-‘Hello-World’"><a href="#First-‘Hello-World’" class="headerlink" title="First ‘Hello World’"></a>First ‘Hello World’</h2><ol>
+<li>In Terminal, create a new directory for your projects <code>mkdir phonegapApps &amp;&amp; cd phonegapApps</code></li>
+<li>Scaffold phonegap app : <code>phonegap create helloworld</code>. This will download dependencies as well.</li>
+<li>Open index.html and change something (e.g. your name in a new div). Save and close.</li>
+<li>Try viewing it : <code>phonegap serve</code>. Open the link in your mobile or browser.</li>
+<li>Keep changing stuff and refresh the page, till you are happy.</li>
+<li>Change ‘config.xml’ with your name and other details</li>
+<li>Add Android Platform to your project <code>cordova platform add android --save</code> (phonegap is just Adobe’s version but basically its just the SAME)</li>
+<li>Build the damn thing <code>phonegap build android</code></li>
+<li>Transfer the debug apk from <code>.\platforms\android\build\outputs\apk\</code> to your phone via <a href="https://play.google.com/store/apps/details?id=com.sand.airdroid&amp;hl=en" target="_blank" rel="external">Airdroid</a> or USB</li>
+<li>Change your security settings in phone to allow installing apps outside Google Play. </li>
+<li>Enjoy!</li>
+</ol>
+<h2 id="Signing-for-Production"><a href="#Signing-for-Production" class="headerlink" title="Signing for Production"></a>Signing for Production</h2><ol>
+<li>Make sure your bundle IDentifier is properly set ‘com.company.productname’</li>
+<li>Make Sure proper icons are settled</li>
+<li>Sign in via keytool (java) : <code>keytool -genkey -v -keystore my_keystore.keystore 
+-alias TutorialsPoint -keyalg RSA -keysize 2048 -validity 10000</code></li>
+<li>More guidelines will be coming up.</li>
+</ol>
+<h2 id="But-why-though"><a href="#But-why-though" class="headerlink" title="But why though?"></a>But why though?</h2><p>A firend of mine (yes, its you bittu) needed a quick cheat sheet for phonegap as he is very busy with his work. So hence, this is it.<br><img src="https://media.giphy.com/media/CEF7ocyS0C9q/200_s.gif" alt="Deal with it"></p>
+<h2 id="Bump"><a href="#Bump" class="headerlink" title="Bump"></a>Bump</h2><p>A full tutorial on making a chat app in phonegap will be uploaded in near future that will use Socket.IO, Phone Number Verification and end-to-end encryption using <a href="http://debabhishek.com/writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/">signal server</a>.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Mobile App </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Phonegap </tag>
+            
+            <tag> js </tag>
+            
+            <tag> hybrid app </tag>
+            
+            <tag> mobile app development </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Installing and Running TextSecure (Signal) Server on Windows]]></title>
+      <url>http://debabhishek.com//writes/Installing-and-Running-TextSecure-Signal-Server-on-Windows/</url>
+      <content type="html"><![CDATA[<h1 id="Installing-and-Running-TextSecure-Signal-Server-on-Windows"><a href="#Installing-and-Running-TextSecure-Signal-Server-on-Windows" class="headerlink" title="Installing and Running TextSecure (Signal) Server on Windows"></a>Installing and Running TextSecure (Signal) Server on Windows</h1><p>While working at <a href="http://plexus365.com/" target="_blank" rel="external">Plexus</a>, I had to implement Signal Server’s end to end encryption on certain project. Though Open Whisper System had the code in <a href="https://github.com/WhisperSystems/Signal-Server" target="_blank" rel="external">github</a>, the instructions were quite unclear on installing the server on local machine. I stumbled upon few Github posts and got this amazing guide. So this is my take on installing TextSecure (Signal) Server on a local Windows 10 machine. </p>
+<a id="more"></a>
+<h2 id="Meta"><a href="#Meta" class="headerlink" title="Meta"></a>Meta</h2><ul>
+<li>Author: Abhishek Deb(vikz91.deb@gmail.com, abhishek@plexus365.com)  </li>
+<li>Date: 1st Feb 2017</li>
+<li>Source:  <a href="https://github.com/WhisperSystems/Signal-Server" target="_blank" rel="external">WhisperSystems</a> <a href="https://github.com/lucaconte/BeatTheMeddler" target="_blank" rel="external">Lucaconte</a>.  </li>
+</ul>
+<h2 id="About"><a href="#About" class="headerlink" title="About"></a>About</h2><p>If you are using Whatsapp then you must have seen “end-to-end” encryption thingy! Well, After Apple’s beef with FBI, Whatsapp just <a href="https://www.wired.com/2016/04/forget-apple-vs-fbi-whatsapp-just-switched-encryption-billion-people/" target="_blank" rel="external">turned on encryption for a billion people</a>.</p>
+<p><img src="https://www.securebeam.com/images/whatsapp-end-to-end/whatsapp_end_to_end.jpg" alt="Whatsapp End-to-end security"><br><em>(Image Courtesy : <a href="https://www.securebeam.com/whatsapp-end-to-end" target="_blank" rel="external">SecureBeam</a>)</em></p>
+<h2 id="Prerequisites"><a href="#Prerequisites" class="headerlink" title="Prerequisites"></a>Prerequisites</h2><ul>
+<li>Java 1.7.</li>
+<li>Windows 10</li>
+<li>Redis (for caching purposes)</li>
+<li>PostgreSQL instance</li>
+<li>Twillio account for SMS registration process confirmation</li>
+<li>Amazon AWS S3 bucket service for messages’ attachments</li>
+<li>A GCM account from google developer console: a senderId add a ApiKey. Create a project, senderId is the projectNumber. For ApiKey, go to API management -&gt; credentials -&gt; create credentials -&gt; API Keys -&gt; Server Key and save this key</li>
+<li>APN account for Apple Push Notifications (two pem certificates) [ask]</li>
+</ul>
+<h2 id="Building-and-Compiling"><a href="#Building-and-Compiling" class="headerlink" title="Building and Compiling"></a>Building and Compiling</h2><ol>
+<li>Clone TextSecure (Signal) Server<br><code>git clone https://github.com/lucaconte/Signal-Server.git</code></li>
+<li>Clone Push Server<br><code>git clone https://github.com/lucaconte/PushServer.git</code></li>
+<li>Clone WebSocket Resources<br><code>git clone https://github.com/lucaconte/WebSocket-Resources.git</code></li>
+<li>In Push Server pom.xml, change <code>capsule.maven.plugin.version</code> version to <code>1.0.1</code></li>
+<li>Build Push Server  (from inside this folder)<br><code>mvn clean install</code></li>
+<li>Download &amp; install gpg4win gpg tool for signing)<br><code>https://www.gpg4win.org/download.html : https://files.gpg4win.org/gpg4win-vanilla-2.3.3.exe</code></li>
+<li>Make sure Environment Variables are set for gpg<br><code>GNUPGHOME : c:\Users\&lt;username&gt;\AppData\Roaming\gnupg //or whatever path it is</code>  </li>
+<li>Create default <code>secring</code> and <code>pubring</code> by opening gpg2.exe file from installed location</li>
+<li>Exit the opened terminal which says “type message”</li>
+<li>Build Push Websocket-Resource (from inside thsi folder)<br><code>mvn clean install</code></li>
+<li>The build will fail at javadoc signing but its okay as we have got the main binary in target folder (websocket-resources-0.4.1)</li>
+<li>Link this file in maven repo ( make sure the versions are same in the file and in teh command)<br><code>mvn install:install-file -Dfile=./library/target/websocket-resources-0.4.1.jar -DgroupId=org.whispersystems -DartifactId=websocket-resources -Dversion=0.4.1 -Dpackaging=jar</code></li>
+<li>Now build the Signal Server  (from inside the Signal Server folder)<br><code>mvn clean install -DskipTests</code></li>
+<li>We skip the tests because they will fail for not finding a key which we will cover later</li>
+</ol>
+<h2 id="Creating-Config-files"><a href="#Creating-Config-files" class="headerlink" title="Creating Config files"></a>Creating Config files</h2><h3 id="pushserver-yml"><a href="#pushserver-yml" class="headerlink" title="pushserver.yml"></a>pushserver.yml</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="attr">redis:</span></div><div class="line"><span class="attr">  url:</span> redis://localhost:<span class="number">6379</span>/<span class="number">2</span></div><div class="line"></div><div class="line"><span class="attr">authentication:</span></div><div class="line"><span class="attr">  servers:</span></div><div class="line"><span class="bullet">    -</span></div><div class="line"><span class="attr">      name:</span> <span class="number">123</span></div><div class="line"><span class="attr">      password:</span> <span class="number">123</span></div><div class="line"><span class="attr">gcm:</span></div><div class="line"><span class="attr">  xmpp:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  apiKey:</span> &lt;INPUT HERE<span class="string">&gt;</span></div><div class="line"><span class="attr">  senderId:</span> &lt;INPUT HERE<span class="string">&gt;</span></div><div class="line"><span class="attr">  redphoneApiKey:</span> AIddSyAsviyMy8jKe8chCEfr8NbeqGghy7oOCi4 <span class="comment">#fake</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="attr">apn:</span></div><div class="line"><span class="attr">  feedback:</span> <span class="literal">false</span></div><div class="line"><span class="attr">  pushKey:</span> /path/to/your/apnpushcertificates/apns-dev-key-noenc.pem <span class="comment">#fake</span></div><div class="line"><span class="attr">  voipKey:</span> /path/to/your/apnpushcertificates/apns-dev-key-noenc.pem <span class="comment">#fake</span></div><div class="line"><span class="attr">  voipCertificate:</span> /path/to/your/apnpushcertificates/apns-dev-cert.pem <span class="comment">#fake</span></div><div class="line"><span class="attr">  pushCertificate:</span> /path/to/your/apnpushcertificates/apns-dev-cert.pem <span class="comment">#fake</span></div><div class="line"></div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">    applicationConnectors:</span></div><div class="line"><span class="attr">    - type:</span> http</div><div class="line"><span class="attr">      port:</span> <span class="number">9090</span></div><div class="line"><span class="attr">    adminConnectors:</span></div><div class="line"><span class="attr">    - type:</span> http</div><div class="line"><span class="attr">      port:</span> <span class="number">9091</span></div><div class="line"><span class="attr">    gzip:</span></div><div class="line"><span class="attr">        enabled:</span> <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  level:</span> INFO</div><div class="line"><span class="attr">  appenders:</span></div><div class="line"><span class="attr">    - type:</span> file</div><div class="line"><span class="attr">      currentLogFilename:</span> /tmp/pushserver.log</div><div class="line"><span class="attr">      archivedLogFilenamePattern:</span> /tmp/pushserver-%d.log.gz</div><div class="line"><span class="attr">      archivedFileCount:</span> <span class="number">5</span></div><div class="line"><span class="attr">    - type:</span> console</div></pre></td></tr></table></figure>
+<h3 id="textsecure-yml"><a href="#textsecure-yml" class="headerlink" title="textsecure.yml"></a>textsecure.yml</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># This is the sample config/textsecure.yml file for the TextSecure Server</span></div><div class="line"><span class="comment"># Pay attention! To start TextSecur server you will need to install and start PushServer</span></div><div class="line"></div><div class="line"><span class="attr">twilio:</span></div><div class="line"><span class="attr">  accountId:</span> &lt;INPUT HERE<span class="string">&gt;</span></div><div class="line"><span class="attr">  accountToken:</span> &lt;INPUT HERE<span class="string">&gt;</span></div><div class="line"><span class="attr">  numbers:</span></div><div class="line"><span class="bullet">    -</span></div><div class="line">      +<span class="number">33756796138</span> <span class="comment">#fake</span></div><div class="line"><span class="attr">  localDomain:</span> foo.org</div><div class="line"></div><div class="line"><span class="attr">push:</span></div><div class="line"><span class="attr">  host:</span> localhost</div><div class="line"><span class="attr">  port:</span> <span class="number">9090</span></div><div class="line"><span class="attr">  username:</span> <span class="number">123</span></div><div class="line"><span class="attr">  password:</span> <span class="number">123</span></div><div class="line"></div><div class="line"><span class="attr">s3:</span></div><div class="line"><span class="attr">   accessKey:</span> ABCDEFGCUFYDHVM2LXXX <span class="comment">#fake</span></div><div class="line"><span class="attr">   accessSecret:</span> W0UfGDddfAbqYyCTIIbSQlDtreTGokOs0OTpL0SE <span class="comment">#fake</span></div><div class="line"><span class="attr">   attachmentsBucket:</span> thenameofyouts3buket <span class="comment">#fake</span></div><div class="line"></div><div class="line"><span class="attr">directory:</span></div><div class="line"><span class="attr">  url:</span> <span class="string">"redis://localhost:6379/0"</span></div><div class="line"></div><div class="line"><span class="attr">cache:</span></div><div class="line"><span class="attr">  url:</span> <span class="string">"redis://localhost:6379/1"</span></div><div class="line"></div><div class="line"><span class="attr">server:</span></div><div class="line"><span class="attr">  applicationConnectors:</span></div><div class="line"><span class="attr">    - type:</span> http</div><div class="line"><span class="attr">      port:</span> <span class="number">8080</span></div><div class="line">      <span class="comment">#keyStorePath: config/example.keystore</span></div><div class="line">      <span class="comment">#keyStorePassword: example</span></div><div class="line">      <span class="comment">#validateCerts: true</span></div><div class="line"><span class="attr">  adminConnectors:</span></div><div class="line"><span class="attr">    - type:</span> http</div><div class="line"><span class="attr">      port:</span> <span class="number">8081</span></div><div class="line">      <span class="comment">#keyStorePath: config/example.keystore</span></div><div class="line">      <span class="comment">#keyStorePassword: example</span></div><div class="line">      <span class="comment">#validateCerts: true</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="attr">websocket:</span></div><div class="line"><span class="attr">  enabled:</span> <span class="literal">true</span></div><div class="line"></div><div class="line"><span class="attr">messageStore:</span> <span class="comment"># Postgres database configuration for message store</span></div><div class="line"><span class="attr">  driverClass:</span> org.postgresql.Driver</div><div class="line"><span class="attr">  user:</span> <span class="string">"postgres"</span></div><div class="line"><span class="attr">  password:</span> <span class="string">"postgres"</span></div><div class="line"><span class="attr">  url:</span> <span class="string">"jdbc:postgresql://localhost:5432/messagedb"</span></div><div class="line"></div><div class="line"><span class="attr">database:</span></div><div class="line"><span class="attr">  driverClass:</span> org.postgresql.Driver</div><div class="line"><span class="attr">  user:</span> <span class="string">"postgres"</span></div><div class="line"><span class="attr">  password:</span> <span class="string">"postgres"</span></div><div class="line"><span class="attr">  url:</span> <span class="string">"jdbc:postgresql://localhost:5432/accountsdb"</span></div><div class="line"><span class="attr">  properties:</span></div><div class="line"><span class="attr">    charSet:</span> UTF<span class="bullet">-8</span></div><div class="line"></div><div class="line"><span class="comment">#federation: # is disabled</span></div><div class="line"></div><div class="line"><span class="attr">logging:</span></div><div class="line"><span class="attr">  level:</span> INFO</div><div class="line"><span class="attr">  appenders:</span></div><div class="line"><span class="attr">    - type:</span> file</div><div class="line"><span class="attr">      currentLogFilename:</span> /tmp/textsecureshserver.log</div><div class="line"><span class="attr">      archivedLogFilenamePattern:</span> /temp/textsecureserver-%d.log.gz</div><div class="line"><span class="attr">      archivedFileCount:</span> <span class="number">5</span></div><div class="line"><span class="attr">    - type:</span> console</div><div class="line"></div><div class="line"></div><div class="line"><span class="attr">redphone:</span></div><div class="line"><span class="attr">  authKey:</span> <span class="number">1234567890</span> <span class="comment">#fake</span></div></pre></td></tr></table></figure>
+<p>Place pushserver.yml in Push Server Folder.<br>Place textsecure.yml in Text Sexure /config folder.  </p>
+<h2 id="Disabling-iOS-Features-Temporarily"><a href="#Disabling-iOS-Features-Temporarily" class="headerlink" title="Disabling iOS Features ( Temporarily)"></a>Disabling iOS Features ( Temporarily)</h2><p>useful part if you plan to test Android only as first</p>
+<ol>
+<li><p>Remove @NotEmpty annotation above “private ApnConfiguration apn;” field definition into <code>org.whispersystems.pushserver.PushServerConfiguration</code> class, so into yml PushServers’s file the APN related params become optional.</p>
+</li>
+<li><p>Into <code>org.whispersystems.pushserver.PushServer</code>‘s “run” method comment every row with apnSender var and pass null in the jersey Controller registration of the PushController:</p>
+</li>
+</ol>
+<p><code>environment.jersey().register(new PushController(null, gcmSender));</code><br>instead of<br><code>environment.jersey().register(new PushController(apnSender, gcmSender));</code><br>Lines : 55, 58 and 62</p>
+<h2 id="Configuring-amp-Running-Database"><a href="#Configuring-amp-Running-Database" class="headerlink" title="Configuring &amp; Running Database"></a>Configuring &amp; Running Database</h2><h3 id="Postgresql"><a href="#Postgresql" class="headerlink" title="Postgresql"></a>Postgresql</h3><ol>
+<li>Download and Install Postgres<br><code>https://www.postgresql.org/download/windows/</code></li>
+<li>Create Databases (Exit all postgres cli instances first)<br><code>createdb -U postgres accountsdb</code><br><code>createdb -U postgres messagedb</code></li>
+<li>Import Table Schemas: (from inside Signal-Server folder)<br><code>java -jar target/TextSecureServer-&lt;VERSION&gt;.jar accountdb migrate config/textsecure.yml</code><br><code>java -jar target/TextSecureServer-&lt;VERSION&gt;.jar messagedb migrate config/textsecure.yml</code></li>
+</ol>
+<h3 id="Redis"><a href="#Redis" class="headerlink" title="Redis"></a>Redis</h3><ol>
+<li>Download and Install Redis<br><code>https://github.com/rgl/redis/downloads</code></li>
+</ol>
+<h2 id="Running-Everything-Together"><a href="#Running-Everything-Together" class="headerlink" title="Running Everything Together"></a>Running Everything Together</h2><ol>
+<li>Run Redis<br><code>redis-server</code></li>
+<li>Run Push Server<br><code>java -jar Push-Server-&lt;VERSION&gt;-capsule-fat.jar server pushserver.yml</code></li>
+<li>Run Text Secure ( Signal) Server<br><code>java -jar target/TextSecureServer-&lt;VERSION&gt;.jar server config/textsecure.yml</code></li>
+</ol>
+<h2 id="Testing-with-Android-App"><a href="#Testing-with-Android-App" class="headerlink" title="Testing with Android App"></a>Testing with Android App</h2><p>Coming soon …</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Data Security </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Security </tag>
+            
+            <tag> Encryption </tag>
+            
+            <tag> end to end </tag>
+            
+            <tag> Data Security </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Rapid NodeJS REST API Server generator with generator-restgoose and yo]]></title>
+      <url>http://debabhishek.com//writes/Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo/</url>
+      <content type="html"><![CDATA[<h1 id="Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo"><a href="#Rapid-NodeJS-REST-API-Server-generator-with-generator-restgoose-and-yo" class="headerlink" title="Rapid NodeJS REST API Server generator with generator-restgoose and yo"></a>Rapid NodeJS REST API Server generator with generator-restgoose and yo</h1><p><a href="https://travis-ci.org/vikz91/generator-restgoose" target="_blank" rel="external"><img src="https://travis-ci.org/vikz91/generator-restgoose.svg?branch=master" alt="Build Status"></a> <a href="https://badge.fury.io/js/generator-restgoose" target="_blank" rel="external"><img src="https://badge.fury.io/js/generator-restgoose.svg" alt="npm version"></a> <a href="https://gitter.im/generator-restgoose/Lobby?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" target="_blank" rel="external"><img src="https://badges.gitter.im/generator-restgoose/Lobby.svg" alt="Join the chat at https://gitter.im/generator-restgoose/Lobby"></a></p>
+<p><a href="https://github.com/vikz91/generator-restgoose" class="nofancybox" target="_blank" rel="external"><br><img class="nofancybox" style=" position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"><br></a></p>
+<p>So I just finished writing and testing the all new generator-restgoose, inspired (forked) from Antonio. I basically changed the core pattern of how MVC code is generated and segregated them, optimized and upgraded many deprecated code, and updated the mocha test. Here is the Rapid NodeJS REST Server generator I have been talking about.</p>
+<a id="more"></a>
+<p><a href="https://nodei.co/npm/generator-restgoose/" target="_blank" rel="external"><img src="https://nodei.co/npm/generator-restgoose.png?downloads=true&amp;downloadRank=true&amp;stars=true" alt="NPM"></a>  </p>
+<p><a href="https://github.com/vikz91/generator-restgoose" target="_blank" rel="external">Github</a></p>
+<p><strong>Minimum Node Version : 4.x<br>Minimum NPM Version : 3.x</strong></p>
+<h2 id="Quick-Links"><a href="#Quick-Links" class="headerlink" title="Quick Links"></a>Quick Links</h2><p>If you would like to contribute, please refer to <a href="https://github.com/vikz91/generator-restgoose/wiki/Guidelines" target="_blank" rel="external">guidelines</a> and a list of <a href="https://github.com/vikz91/generator-restgoose/issues?q=is%3Aopen+is%3Aissue" target="_blank" rel="external">open tasks</a>.</p>
+<p>For more information, please refer to the <a href="https://github.com/vikz91/generator-restgoose/wiki" target="_blank" rel="external">Wiki page</a> and <a href="https://github.com/vikz91/generator-restgoose/wiki/FAQ" target="_blank" rel="external">FAQ</a> </p>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><ul>
+<li>Scaffolds <em>out-of-the-box</em> REST API Server</li>
+<li>Generates All Ready to run files<ul>
+<li>Model ( Mongoose)</li>
+<li>Api Route (endpoint)</li>
+<li>Api Object (Business Layer, crud logic)</li>
+<li>Documentation (API reffernce)</li>
+<li>Test File</li>
+</ul>
+</li>
+<li>Generates <em>ready-to-rock</em> README file with License(MIT), etc.</li>
+<li>Conforms to jSend Specs for API JSON Response</li>
+<li>Modular and based on <code>Seperation of Concern</code></li>
+<li>Fast and readible code generation</li>
+<li>… <a href="#bucket-list">much more</a></li>
+</ul>
+<h2 id="Table-of-contents"><a href="#Table-of-contents" class="headerlink" title="Table of contents"></a>Table of contents</h2><ul>
+<li><a href="#generator-restgoose">Generator Restgoose</a></li>
+<li><a href="#quick-links">Quick Links</a></li>
+<li><a href="#overview">Overview</a></li>
+<li>Table of Contents</li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#command-list">Command List</a></li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#changeLog">ChangeLog</a></li>
+<li><a href="#bucket-list">Bucket List</a></li>
+<li><a href="https://github.com/vikz91/generator-restgoose/wiki/Guidelines" target="_blank" rel="external">Guidelines for Contribution</a></li>
+<li><a href="#generator-restgoose-core-team">Generator Restgoose Core Team</a></li>
+<li><a href="#license">License</a></li>
+</ul>
+<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><h3 id="What-is-Yeoman"><a href="#What-is-Yeoman" class="headerlink" title="What is Yeoman?"></a>What is Yeoman?</h3><p>Trick question. It’s not a thing. It’s this guy:</p>
+<p><img src="http://i.imgur.com/KvLOBSb.jpg" alt=""></p>
+<p>Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.</p>
+<p>Not every new computer comes with a Yeoman pre-installed. He lives in the <a href="https://npmjs.org" target="_blank" rel="external">npm</a> package repository. You only have to ask for him once, then he packs up and moves into your hard drive. <em>Make sure you clean up, he likes new and shiny things.</em></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g yo</div></pre></td></tr></table></figure>
+<h3 id="Generator-Restgoose"><a href="#Generator-Restgoose" class="headerlink" title="Generator Restgoose"></a>Generator Restgoose</h3><p>While running through a leafy mongodb field he picked up mongoose.<br>Generator-Restgoose scaffolds all API Routes, API Objects ( Bussiness Logic), Schema Models, Test Cases, and even Documentation for you with full CRUD functionality. </p>
+<p>To install generator-restgoose from npm, run:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g generator-restgoose</div></pre></td></tr></table></figure>
+<p>Finally, initiate the generator:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yo restgoose</div></pre></td></tr></table></figure>
+<p>It should output a file structure similiar to:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">.bowerrc</div><div class="line">.editorconfig</div><div class="line">.jshintrc</div><div class="line">api/</div><div class="line">apiObjects/</div><div class="line">config/</div><div class="line">... db.js</div><div class="line">... lib.js</div><div class="line">docs/</div><div class="line">public/</div><div class="line">models/</div><div class="line">routes/</div><div class="line">... index.js</div><div class="line">test/</div><div class="line">views/</div><div class="line">bower.json</div><div class="line">Gruntfile.js</div><div class="line">package.json</div><div class="line">Readme.md</div></pre></td></tr></table></figure>
+<ul>
+<li>models - contains Mongoose Schema of an entity ( Data Layer)</li>
+<li>apiObjects - Contains business logic &amp; model access for each entity ( Business Layer )</li>
+<li>api - Contains routes of each entity ( Presentation Layer / Controller )</li>
+<li>test - contains unit test cases for each entity</li>
+<li>docs - contains Detailed <code>markdown</code> formatted documentation of each Schema generated through the sub-generator. </li>
+</ul>
+<p>Don’t forget to checkout the <code>config/lib.js</code> file which contains many useful stuff (Json Validator, image to Base64 Converter, etc).<br>Use the Library as <figure class="highlight plain"><figcaption><span>l = require('../config/lib.js); ``` ( which generates with every sub schema). </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Try to use ``` l.p(&apos;Print something&apos;); ``` to log something. This will log to debug.log file. </div><div class="line"></div><div class="line">Logging</div><div class="line">Two log files are served : debug.log and access.log.</div><div class="line"></div><div class="line">All responses are in valid [jSend](https://labs.omniti.com/labs/jsend) spec conformed JSON format.</div><div class="line"></div><div class="line"></div><div class="line">### Run the app </div><div class="line"></div><div class="line">Development mode</div><div class="line">```bash</div><div class="line">$ grunt</div></pre></td></tr></table></figure></p>
+<p>or</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ grunt server</div></pre></td></tr></table></figure>
+<p>Production mode<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ grunt prod</div></pre></td></tr></table></figure></p>
+<h3 id="Sub-Generators"><a href="#Sub-Generators" class="headerlink" title="Sub Generators"></a>Sub Generators</h3><h4 id="Schema"><a href="#Schema" class="headerlink" title="Schema"></a>Schema</h4><p>Creates all required Model, Controllers, test cases, routes and documentations for a particular Schema. Run the sub generator for schemas:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yo restgoose:schema &quot;article|title:String,excerpt:String,content:String,published:Boolean,created:Date&quot;</div></pre></td></tr></table></figure>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">You&apos;re creating a schema for article</div><div class="line">With the fields: title,excerpt,content,published,created</div><div class="line">create routes/article.js</div><div class="line">create models/article.js</div><div class="line">starting request to schematic for test mock data...</div><div class="line">create test/test-article.js</div><div class="line">create doc/article.md</div></pre></td></tr></table></figure></p>
+<h4 id="DeleteSchema"><a href="#DeleteSchema" class="headerlink" title="DeleteSchema"></a>DeleteSchema</h4><p>Deletes all files (Model, APi Route, API Object, Doc, Test) for a particular schema. Run the sub generator for deleteschema:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yo restgoose:deleteschema &quot;article&quot; --force</div></pre></td></tr></table></figure>
+<p><strong>N.B.</strong> You need to use –force else y=Yeoman will continue asking you to overwrite each file.<br>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">You&apos;re deleting all files for schema: article</div><div class="line"></div><div class="line">force api/article.js</div><div class="line">force apiObjects/article.js</div><div class="line">force models/article.js</div><div class="line">force docs/article.md</div><div class="line">force test/test-article.js</div></pre></td></tr></table></figure></p>
+<h3 id="Getting-To-Know-Yeoman"><a href="#Getting-To-Know-Yeoman" class="headerlink" title="Getting To Know Yeoman"></a>Getting To Know Yeoman</h3><p>Yeoman has a heart of gold. He’s a person with feelings and opinions, but he’s very easy to work with. If you think he’s too opinionated, he can be easily convinced.</p>
+<p>If you’d like to get to know Yeoman better and meet some of his friends, <a href="http://gruntjs.com" target="_blank" rel="external">Grunt</a> and <a href="http://bower.io" target="_blank" rel="external">Bower</a>, check out the complete <a href="https://github.com/yeoman/yeoman/wiki/Getting-Started" target="_blank" rel="external">Getting Started Guide</a>.</p>
+<h2 id="Command-List"><a href="#Command-List" class="headerlink" title="Command List"></a>Command List</h2><ul>
+<li>yo restgoose \<projectname\> - initiate a project</projectname\></li>
+<li>yo restgoose:schema “\<schema\>|field:DataType” - Create all routers, models, test and docs for a schema</schema\></li>
+<li>yo restgoose:deleteschema “\<schema\>“ - Delete all related generated files for a schema</schema\></li>
+<li>grunt - start server with watch enabled</li>
+<li>npm test - Start Testing generated schemas</li>
+</ul>
+<h2 id="Architecture"><a href="#Architecture" class="headerlink" title="Architecture"></a>Architecture</h2><p>WIP</p>
+<h2 id="ChangeLog"><a href="#ChangeLog" class="headerlink" title="ChangeLog"></a>ChangeLog</h2><h3 id="28-Jan-2017-v0-1-8"><a href="#28-Jan-2017-v0-1-8" class="headerlink" title="[ 28 Jan 2017 ] v0.1.8"></a>[ 28 Jan 2017 ] v0.1.8</h3><ul>
+<li>Features<ul>
+<li>Universal Search Functionality ( both Strict and Casual Options)</li>
+</ul>
+</li>
+<li>Optimizations &amp; Upgrades<ul>
+<li>Updated Docs</li>
+</ul>
+</li>
+<li>Bug Fixes<ul>
+<li>fixed test mothod in api</li>
+</ul>
+</li>
+</ul>
+<h3 id="8-Jan-2017-v0-1-6"><a href="#8-Jan-2017-v0-1-6" class="headerlink" title="[ 8 Jan 2017 ] v0.1.6"></a>[ 8 Jan 2017 ] v0.1.6</h3><p>First off, I am really sorry for this long awaited update. Good News, a <strong>lot</strong> has changed in this update - Unified Response JSON object, conforming with spec, Documentation Generation, Great README file for both Yeoman Generator-Restgoose Project(this one) and your generated project! Oh and by the way, do check out the brand new sub-generator “deleteschema”!</p>
+<ul>
+<li>Migration<br>With as much pain I can endure, this version of generator-restgoose is <strong>not</strong> backwards-compatible. This comes due to changing the core response object of all API endpoints. I will write up a blog page/<a href="https://github.com/vikz91/generator-restgoose/wiki/Migrations" target="_blank" rel="external">wiki</a> very soon for reasons, resolutions and troubleshooting. I personally regret inconveniences caused.<br>Despite this, If you need more reasons to keep using this project, read on …</li>
+<li>Features<ul>
+<li>Unified JSON response object (<a href="https://labs.omniti.com/labs/jsend" target="_blank" rel="external">jSend</a>)</li>
+<li>Quick Auto Callback and Response Handlers ( check <code>config/lib.js</code>)</li>
+<li>Sub-Generator generates document for your schema</li>
+<li>Wiki &amp; FAQs</li>
+<li>generated project README </li>
+<li>New Sub-Generator for deleting a schema, and its files.</li>
+</ul>
+</li>
+<li>Optimizations &amp; Upgrades<ul>
+<li>generator-restgoose README (this one)</li>
+<li>Dedicated github-page and website</li>
+<li>Changed all broken links</li>
+<li>Updated All Dependencies</li>
+<li>Better &amp; Clean Code Generation</li>
+<li>Better Test Cases</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-Feb-2016-v0-1-5"><a href="#5-Feb-2016-v0-1-5" class="headerlink" title="[ 5 Feb 2016 ] v0.1.5"></a>[ 5 Feb 2016 ] v0.1.5</h3><ul>
+<li>Bug Fixed for Test Route in APIs</li>
+</ul>
+<h2 id="Bucket-List"><a href="#Bucket-List" class="headerlink" title="Bucket List"></a>Bucket List</h2><ul>
+<li><del>Complete ReadME file for the generated api project</del></li>
+<li><del>Pre-defined generated docs for the generated API endpoints</del></li>
+<li><del>Complete README file for generator-restgoose project (this one)</del></li>
+<li>API Versioning System</li>
+<li>API Dynamic on-demand Doc Generator</li>
+<li>Conform to <a href="https://github.com/WhiteHouse/api-standards/blob/master/README.md" target="_blank" rel="external">REST API Standards</a></li>
+<li>out-of-the-box passportJS authentication with JWT</li>
+<li>Socket.IO Generator (wohooo)</li>
+<li>Docker Scripts</li>
+<li>AutoStart Script using PM2 ( 1 click deploy)</li>
+<li>Write Reasons, Troubleshooting and migration for v0.1.5 to 0.1.6 in a wiki/blog</li>
+</ul>
+<h2 id="Generator-Restgoose-Core-Team"><a href="#Generator-Restgoose-Core-Team" class="headerlink" title="Generator Restgoose Core Team"></a>Generator Restgoose Core Team</h2><ul>
+<li>Development &amp; Maintenance : <a href="https://in.linkedin.com/in/debabhishek" target="_blank" rel="external">Abhishek Deb</a></li>
+</ul>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT<br>Copyright 2017 Abhishek Deb</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+<p>:warning:  THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+<p><a href="http://en.wikipedia.org/wiki/MIT_License" target="_blank" rel="external">MIT License</a></p>
+<p><img src="https://david-dm.org/vikz91/generator-restgoose.svg" alt="NPM"></p>
+<p><a href="https://nodei.co/npm/generator-restgoose/" target="_blank" rel="external"><img src="https://nodei.co/npm-dl/generator-restgoose.png" alt="NPM"></a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> NodeJS </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> node js </tag>
+            
+            <tag> nodeJS </tag>
+            
+            <tag> API </tag>
+            
+            <tag> Code Generator </tag>
+            
+            <tag> yo </tag>
+            
+            <tag> mongoose </tag>
+            
+            <tag> REST API </tag>
+            
+            <tag> doc generator </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Get List of USB Drives in Linux Terminal, and mount them]]></title>
+      <url>http://debabhishek.com//writes/Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them/</url>
+      <content type="html"><![CDATA[<h1 id="Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them"><a href="#Get-List-of-USB-Drives-in-Linux-Terminal-and-mount-them" class="headerlink" title="Get List of USB Drives in Linux Terminal, and mount them"></a>Get List of USB Drives in Linux Terminal, and mount them</h1><p>Get List of USB Drives in Linux Terminal, and mount them<br>Instead of using lsusb, use the following command to get a comma separated list of USB disk drives,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ lsblk | grep “sd[^a]” | tail -n +2 | cut -c7-10 | sed ‘/^ $/d’ | paste <span class="_">-s</span> <span class="_">-d</span>,</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>This has been tested on ubuntu only.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Linux </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> usb </tag>
+            
+            <tag> mount </tag>
+            
+            <tag> mount drives </tag>
+            
+            <tag> mount usb in linux </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Simple REST Client for Unity]]></title>
+      <url>http://debabhishek.com//writes/Simple-REST-Client-for-Unity/</url>
+      <content type="html"><![CDATA[<h1 id="Simple-REST-Utility-for-Unity"><a href="#Simple-REST-Utility-for-Unity" class="headerlink" title="Simple REST Utility for Unity"></a>Simple REST Utility for Unity</h1><h3 id="History"><a href="#History" class="headerlink" title="History:"></a>History:</h3><p>Recently I needed a script though which I could easily get and send data to a REST Server. I picked my fav environment: MEAN. using Yeoman, I quickly implemented a simplistic REST Server, which will serve all data for my Unity WebPlayer Build. So here goes my take on a simple REST Utility for Unity.</p>
+<a id="more"></a>
+<h3 id="NOTE"><a href="#NOTE" class="headerlink" title="NOTE:"></a>NOTE:</h3><p>Since UNity 5.3, the in-built REST client, <figure class="highlight plain"><figcaption><span>is really good and hence, you won't be needing this tool at all. For below versions, you can use this code.</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div><div class="line">108</div><div class="line">109</div><div class="line">110</div><div class="line">111</div><div class="line">112</div><div class="line">113</div><div class="line">114</div><div class="line">115</div><div class="line">116</div><div class="line">117</div><div class="line">118</div><div class="line">119</div><div class="line">120</div><div class="line">121</div><div class="line">122</div><div class="line">123</div><div class="line">124</div><div class="line">125</div><div class="line">126</div><div class="line">127</div><div class="line">128</div><div class="line">129</div><div class="line">130</div><div class="line">131</div><div class="line">132</div><div class="line">133</div><div class="line">134</div><div class="line">135</div><div class="line">136</div><div class="line">137</div><div class="line">138</div><div class="line">139</div><div class="line">140</div><div class="line">141</div><div class="line">142</div><div class="line">143</div><div class="line">144</div><div class="line">145</div><div class="line">146</div><div class="line">147</div><div class="line">148</div><div class="line">149</div><div class="line">150</div><div class="line">151</div><div class="line">152</div><div class="line">153</div><div class="line">154</div><div class="line">155</div><div class="line">156</div><div class="line">157</div><div class="line">158</div><div class="line">159</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">Unity has the wonderful WWW utility through which we can GET or POST data to/from any REST Server. After stumbling upon further, I found a [StackOverflow](http://stackoverflow.com/questions/8951489/unity-get-post-wrapper) post for a Simple GET/POST Wrapper for REST Utility for Unity.</div><div class="line"></div><div class="line">I tweaked it a little ( added Callbacks instead of directly returning values) and use din my projects and it worked like a charm. And yes, for those who were concerned if it will work for WebBuilds, well, Yes, it works. I have Tested it.</div><div class="line">The following is the code:</div><div class="line"></div><div class="line">### LIBRARY CODE</div><div class="line">```c#</div><div class="line">// file : DB.cs ( put this in Plugins Folder)</div><div class="line"></div><div class="line"></div><div class="line">using System;</div><div class="line">using UnityEngine;</div><div class="line">using System.Collections;</div><div class="line">using System.Collections.Generic;</div><div class="line">using Object = System.Object;</div><div class="line"></div><div class="line">/// &lt;summary&gt;</div><div class="line">/// Class D3VRest. A Wrapper class for simple and efficient REST API calls</div><div class="line">/// &lt;/summary&gt;</div><div class="line"></div><div class="line">namespace D3VRestWrapper</div><div class="line">&#123;</div><div class="line">    class D3VRest : MonoBehaviour</div><div class="line">    &#123;</div><div class="line">        void Start() &#123; &#125;</div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// Gets JSON data from the specified URL.</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;param name=&quot;url&quot;&gt;The URL.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;Callback&quot;&gt;The callback.&lt;/param&gt;</div><div class="line">        public void GET(string url, System.Action&lt;Object&gt; Callback = null)</div><div class="line">        &#123;</div><div class="line">            WWW www = new WWW(url);</div><div class="line">            StartCoroutine(WaitForRequest(www, Callback));</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// Gets a texture form the specified URL.</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;param name=&quot;url&quot;&gt;The URL.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;Callback&quot;&gt;The callback.&lt;/param&gt;</div><div class="line">        public void GETTexture(string url, System.Action&lt;Object&gt; Callback = null)</div><div class="line">        &#123;</div><div class="line">            WWW www = new WWW(url);</div><div class="line">            StartCoroutine(WaitForRequest(www, Callback, true));</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// GETs an asset from Asset Bundle</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;param name=&quot;url&quot;&gt;The Url to fetch the Asset from&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;AssetName&quot;&gt;Asset Name&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;Callback&quot;&gt;The Callback that contains the GameObject as its parameter&lt;/param&gt;</div><div class="line">        public void GETAsset(string url, string AssetName, System.Action&lt;Object&gt; Callback = null)</div><div class="line">        &#123;</div><div class="line">            StartCoroutine(WaitForAsset(url, AssetName, Callback));</div><div class="line">        &#125;</div><div class="line"></div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// Posts a Form data to the specified URL.</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;param name=&quot;url&quot;&gt;The URL.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;post&quot;&gt;The post.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;Callback&quot;&gt;The callback.&lt;/param&gt;</div><div class="line">        /// &lt;returns&gt;UnityEngine.WWW.&lt;/returns&gt;</div><div class="line">        public WWW POST(string url, Dictionary&lt;string, string&gt; post, System.Action&lt;Object&gt; Callback = null)</div><div class="line">        &#123;</div><div class="line">            WWWForm form = new WWWForm();</div><div class="line">            foreach (KeyValuePair&lt;String, String&gt; post_arg in post)</div><div class="line">            &#123;</div><div class="line">                form.AddField(post_arg.Key, post_arg.Value);</div><div class="line">            &#125;</div><div class="line">            WWW www = new WWW(url, form);</div><div class="line"></div><div class="line">            StartCoroutine(WaitForRequest(www, Callback));</div><div class="line">            return www;</div><div class="line">        &#125;</div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// Waits for request.</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;param name=&quot;www&quot;&gt;The WWW.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;Callback&quot;&gt;The callback.&lt;/param&gt;</div><div class="line">        /// &lt;param name=&quot;isTexture&quot;&gt;This is texture or not.&lt;/param&gt;</div><div class="line">        /// &lt;returns&gt;System.Collections.IEnumerator.&lt;/returns&gt;</div><div class="line">        private IEnumerator WaitForRequest(WWW www, System.Action&lt;System.Object&gt; Callback = null, bool isTexture = false)</div><div class="line">        &#123;</div><div class="line">            yield return www;</div><div class="line">            Object r;</div><div class="line">            if (www.error == null)</div><div class="line">            &#123;</div><div class="line">                //Ok</div><div class="line">                if (!isTexture)</div><div class="line">                    r = &quot;&#123;err:false,data:&quot; + www.text + &quot;&#125;&quot;;</div><div class="line">                else</div><div class="line">                    r = www.texture;</div><div class="line"></div><div class="line">                if (Callback != null)</div><div class="line">                    Callback(r);</div><div class="line">            &#125;</div><div class="line">            else</div><div class="line">            &#123;</div><div class="line">                //send error</div><div class="line">                r = &quot;&#123;err:\&quot;&quot; + www.error + &quot;\&quot;,data:false&#125;&quot;;</div><div class="line">                if (Callback != null)</div><div class="line">                    Callback(r);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        /// &lt;summary&gt;</div><div class="line">        /// Generic Asset Downloader ( Non Cached Version)</div><div class="line">        /// &lt;/summary&gt;</div><div class="line">        /// &lt;returns&gt;System.Object as Parameter to callback&lt;/returns&gt;</div><div class="line">        private IEnumerator WaitForAsset(string BundleURL, string AssetName, System.Action&lt;System.Object&gt; Callback = null, bool isTexture = false)</div><div class="line">        &#123;</div><div class="line">            //  string BundleURL = &quot;localhost:3000/prefabs/t1.unity3d&quot;;</div><div class="line">            // string AssetName = &quot;t1&quot;;</div><div class="line"></div><div class="line"></div><div class="line">            using (WWW www = new WWW(BundleURL))</div><div class="line">            &#123;</div><div class="line">                yield return www;</div><div class="line">                AssetBundle bundle;</div><div class="line"></div><div class="line"></div><div class="line">                if (www.error == null)</div><div class="line">                &#123;</div><div class="line">                    //Ok</div><div class="line">                    bundle = www.assetBundle;</div><div class="line"></div><div class="line">                    if (Callback != null)</div><div class="line">                    &#123;</div><div class="line">                        if (AssetName == &quot;&quot;)</div><div class="line">                            Callback(bundle.mainAsset);</div><div class="line">                        else</div><div class="line">                            Callback(bundle.Load(AssetName));</div><div class="line">                    &#125;</div><div class="line">                    bundle.Unload(false);</div><div class="line">                &#125;</div><div class="line">                else</div><div class="line">                &#123;</div><div class="line">                    //send error</div><div class="line">                    Object r = &quot;&#123;err:\&quot;&quot; + www.error + &quot;\&quot;,data:false&#125;&quot;;</div><div class="line">                    if (Callback != null)</div><div class="line">                        Callback(r);</div><div class="line">                &#125;</div><div class="line"></div><div class="line"></div><div class="line">            &#125; // memory is freed from the web stream (www.Dispose() gets called implicitly)</div><div class="line">        &#125;</div><div class="line"></div><div class="line">    &#125;</div></pre></td></tr></table></figure></p>
+<h3 id="Example-USAGE-CODE"><a href="#Example-USAGE-CODE" class="headerlink" title="Example USAGE CODE"></a>Example USAGE CODE</h3><p>For example, create a file and fill it  up with this:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div><div class="line">91</div><div class="line">92</div><div class="line">93</div><div class="line">94</div><div class="line">95</div><div class="line">96</div><div class="line">97</div><div class="line">98</div><div class="line">99</div><div class="line">100</div><div class="line">101</div><div class="line">102</div><div class="line">103</div><div class="line">104</div><div class="line">105</div><div class="line">106</div><div class="line">107</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">using System;</div><div class="line">using System.Collections;</div><div class="line">using System.Collections.Generic;</div><div class="line">using SimpleJSON;</div><div class="line">using Object = System.Object;</div><div class="line">using D3VRestWrapper;</div><div class="line"> </div><div class="line">public class main : MonoBehaviour</div><div class="line">&#123;</div><div class="line">    D3VRest db;</div><div class="line">    Texture2D boxTex;</div><div class="line">    GameObject box;</div><div class="line">    // Use this for initialization</div><div class="line">    void Start()</div><div class="line">    &#123;</div><div class="line">        db = GameObject.Find(&quot;DB&quot;).GetComponent&lt;D3VRest&gt;();</div><div class="line">        FetchJackpot();</div><div class="line"> </div><div class="line"> </div><div class="line">        FetchTexure();</div><div class="line"> </div><div class="line"> </div><div class="line">       </div><div class="line">    &#125;</div><div class="line"> </div><div class="line">    /// &lt;summary&gt;</div><div class="line">    /// Fetches the texure.</div><div class="line">    /// &lt;/summary&gt;</div><div class="line">    public void FetchTexure()</div><div class="line">    &#123;</div><div class="line">        db.GETTexture(&quot;http://localhost:3000/textures/playBtn.png&quot;, delegate(object data) &#123;</div><div class="line">            boxTex=data as Texture2D;</div><div class="line">            GameObject.Find(&quot;Quad&quot;).renderer.material.mainTexture=boxTex;</div><div class="line"> </div><div class="line">            FetchT();</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line"> </div><div class="line">    /// &lt;summary&gt;</div><div class="line">    /// Fetches the jackpot.</div><div class="line">    /// &lt;/summary&gt;</div><div class="line">    public void FetchJackpot()</div><div class="line">    &#123;</div><div class="line">        db.GET(&quot;http://localhost:3000/jackpot&quot;, delegate(Object data)</div><div class="line">        &#123;</div><div class="line">            //Data has been Received. Lets convert the returned object to JSON data</div><div class="line">            var www = JSON.Parse(data.ToString());</div><div class="line"> </div><div class="line">            //CHeck if Error is present or not. ( and hopefully not!)</div><div class="line">            if (!www[&quot;err&quot;].AsBool)</div><div class="line">            &#123;</div><div class="line">                //Check if data is present or not</div><div class="line">                if (www[&quot;data&quot;] != null &amp;&amp; www[&quot;data&quot;][&quot;score&quot;] != null)</div><div class="line">                &#123;</div><div class="line">                    print(&quot;Score: &quot; + www[&quot;data&quot;][&quot;score&quot;].Value);</div><div class="line">                    GameObject.Find(&quot;lblJackpot&quot;).GetComponent&lt;UILabel&gt;().text = &quot;Jackpot: &quot; + www[&quot;data&quot;][&quot;score&quot;].Value;</div><div class="line">                &#125;</div><div class="line">                else</div><div class="line">                    Debug.LogWarning(&quot;Score: 0&quot;);</div><div class="line">            &#125;</div><div class="line">            else</div><div class="line">            &#123;</div><div class="line">                Debug.LogError(&quot;Error Occured! : &quot; + www[&quot;err&quot;].ToString());</div><div class="line">            &#125;</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line"> </div><div class="line"> </div><div class="line">    /// &lt;summary&gt;</div><div class="line">    /// Updates the jackpot.</div><div class="line">    /// &lt;/summary&gt;</div><div class="line">    public void UpdateJackpot()</div><div class="line">    &#123;</div><div class="line">        //Prepare Data to be Sent</div><div class="line">        Dictionary&lt;string, string&gt; form = new Dictionary&lt;string, string&gt;();</div><div class="line">        form.Add(&quot;score&quot;, GameObject.Find(&quot;inpJackpot&quot;).GetComponent&lt;UIInput&gt;().value);</div><div class="line"> </div><div class="line"> </div><div class="line">        //Send the data</div><div class="line">        db.POST(&quot;http://localhost:3000/jackpot&quot;, form, delegate(Object data)</div><div class="line">        &#123;</div><div class="line">            var www = JSON.Parse(data.ToString());</div><div class="line">            if (!www[&quot;err&quot;].AsBool)</div><div class="line">            &#123;</div><div class="line">                FetchJackpot();</div><div class="line">                Debug.Log(&quot;Score Updated!&quot;);</div><div class="line">            &#125;</div><div class="line">            else</div><div class="line">            &#123;</div><div class="line">                Debug.LogError(&quot;Error Occured! : &quot; + www[&quot;err&quot;].ToString());</div><div class="line">            &#125;</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line"> </div><div class="line"> </div><div class="line">    public void FetchT()</div><div class="line">    &#123;</div><div class="line">        db.GETAsset(&quot;localhost:3000/prefabs/t1.unity3d&quot;, &quot;t1&quot;, delegate(Object data) &#123;</div><div class="line">            box = Instantiate((UnityEngine.Object)data) as GameObject;</div><div class="line">            box.renderer.material.mainTexture = boxTex;</div><div class="line">        &#125;);</div><div class="line">    &#125;</div><div class="line"> </div><div class="line">   </div><div class="line"> </div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>Genrally, this simple REST utility for unity could be enhanced more and JSON can be integrated as well. I will leave this upto you. Or may be I will find out time to add more features to it and add it to my very own Utility Library ( _unity).</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> unity3d </tag>
+            
+            <tag> unity </tag>
+            
+            <tag> C# </tag>
+            
+            <tag> API </tag>
+            
+            <tag> NET </tag>
+            
+            <tag> REST Client </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[#GameDevStream – 01. Catch The Egg]]></title>
+      <url>http://debabhishek.com//writes/GameDevStream-%E2%80%93-01-Catch-The-Egg/</url>
+      <content type="html"><![CDATA[<h1 id="GameDevStream-–-01-Catch-The-Egg"><a href="#GameDevStream-–-01-Catch-The-Egg" class="headerlink" title="#GameDevStream – 01. Catch The Egg"></a>#GameDevStream – 01. Catch The Egg</h1><p>GameDevStream is a series of Live Video Streams of Indie Game Development. This is the first video of a casual game “Catch The Egg”. Use the arrow buttons to move the basket left or right and try to actually “catch the egg” (s) to score higher.</p>
+<a id="more"></a>
+<p><code>#GameDevStream</code></p>
+<h2 id="Video-1-Catch-The-Egg"><a href="#Video-1-Catch-The-Egg" class="headerlink" title="Video 1: Catch The Egg"></a>Video 1: Catch The Egg</h2><p>So, I have decided to start a new Youtube Playlist and upload my streams of Video Game Development, called #GameDevStream. Its basically for beginners and intermediates. Advanced Videos will follow. I am very new to this screen-cast things and so, thought of experimenting with it. The main goal of this initiative is to put a “feel” online how “Game Developers” actually code.</p>
+<h2 id="See-the-Video"><a href="#See-the-Video" class="headerlink" title="See the Video:"></a>See the Video:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/mGDrU8nd3WE" frameborder="0" allowfullscreen></iframe></div>
+<p>This is the first game development video of the series #GameDevStream. Its a 2 hour + Video of a simple game “Catch The Egg”. Of-course there are a LOTTTT of things that needs to be taken care of in the game development ( pooling, Managers, etc) but this is just to show how quickly you can make a game, and what feel goes into it. The Next Videos will contain more in-depth improvements (Delegates, Messaging System, Singletons, etc).</p>
+<p>The <a href="BitBucket">Source Code</a> has been uploaded on BitBucket.</p>
+<p>Feel free to ask any questions and criticize to your satisfaction. Also, I am looking for other people who are interested in this project and want to share their experience with.</p>
+<p>The Code is written on Unity 4 and may <strong>NOT</strong> work in Unity 5.</p>
+<p><code>#GameDevStream</code></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Game Development Stream </tag>
+            
+            <tag> #GameDevStream </tag>
+            
+            <tag> Game Development Tutorial </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Game Flow Design for mobiles]]></title>
+      <url>http://debabhishek.com//writes/Game-Flow-Design-for-mobiles/</url>
+      <content type="html"><![CDATA[<h1 id="Game-Flow-Design-for-mobiles"><a href="#Game-Flow-Design-for-mobiles" class="headerlink" title="Game Flow Design for mobiles"></a>Game Flow Design for mobiles</h1><p>Recently while making one of my games,  my team felt the need to have a standardized game Flow Diagram so that every one in the team clearly understands how the game progression works, and which screens comes after which one. </p>
+<a id="more"></a>
+<h2 id="Game-flow-for-mobiles"><a href="#Game-flow-for-mobiles" class="headerlink" title="Game flow? for mobiles?"></a>Game flow? for mobiles?</h2><p>So, I <a href="http://tinypic.com/view.php?pic=2087ac3&amp;s=5#.WHaAvLZ95Z2" target="_blank" rel="external">stumbled upon this</a>, and modified it to my own needs and here it is. For mobile devices, Social Leaderboard and IAP are greatly used.</p>
+<p><img src="/2015/02/17/Game-Flow-Design-for-mobiles/What-a-Drag-Diagrams.jpg" alt=""></p>
+<h2 id="How-does-it-work"><a href="#How-does-it-work" class="headerlink" title="How does it work?"></a>How does it work?</h2><ol>
+<li>User taps/clicks the game icon from the app drawer.</li>
+<li>Game Launches with a splash screen, showing the company logo and other frameworks / Libraries used ( if permissible). The Intro Splash screen must not retain more than 3 secs, and should fade to either white, or black.</li>
+<li>If an initial Loading screen is intended (which is recommended), The graphics used should be minimal and should to add to the overhead. It can also display Tips and/or News.</li>
+<li>The Main Menu should be very attractive to give its FIRST IMPRESSION. Do NOT over do the Main Menu, also, try to avoid bluntness. It is the centralized Menu, which will take the user to all the other screens,a nd even QUIT the game too.</li>
+<li>Social Leaderboard, IAP and Missions are the “minimum and must have” features of a mobile game nowdays. If you are dreaming of earning through Ads alone, then good luck keep on dreaming!</li>
+<li>For mobile device, Settings Popup should atleast – sound toggles, Reset Score, Vibration Toggle, etc.</li>
+<li>About Popup must contain a brief intro about the game, and should clearly mention the goal of the game and the alternative links. Also, this is a very good place for embedding Credits.</li>
+<li>Technically, you can give as many Game Modes as you wish. But do take note that you should also provide an Interactive Tutorial for each.</li>
+<li>A Briefing Page us what tells the players about the goals and missions of the level he is going to play. For e.g. Score Bonuses and Unlocks, Friendly Challenges, etc.</li>
+<li>Action is where the actual game takes place. One tip of advice – NEVER, EVER, EVER put advertisements on the main game scene. Gamers will hate it and will be frustrated.</li>
+<li>Game Flow Design lets us investigate the flow of all the screens .</li>
+<li>Both Action and the interactive tutorial should have Pause Buttons.</li>
+<li>A Pause Popup should allow the game to navigate to Main Menu or, resume back to the ongoing game.</li>
+<li>Debriefing Popup should inform the user if he/she won or lose. Score calculation happens at these stage and all the bonus unlocks should be displayed here. On of the critical responsibilities of a game designers is to let the gamer feel paradise after winning a game. Rewards, and exclusive REWARDS. Remember, Most players play games for appreciations, even virtual ones.</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Architecture </tag>
+            
+            <tag> Game Flow Diagram </tag>
+            
+            <tag> Mobile Workflow </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[_unity : Utility Library for Unity 3D]]></title>
+      <url>http://debabhishek.com//writes/unity-Utility-Library-for-Unity-3D/</url>
+      <content type="html"><![CDATA[<h1 id="unity-Utility-Library-for-Unity-3D"><a href="#unity-Utility-Library-for-Unity-3D" class="headerlink" title="_unity : Utility Library for Unity 3D"></a>_unity : Utility Library for Unity 3D</h1><p>This is my take on a utility library for Unity Engine. It has some GUI Scaling Utility Methods, some Debugging Methods, Array Utilities and some other cool stuff like finite state machine, generic singletons, Event Messaging, and etc. </p>
+<a id="more"></a>
+<p>This is an ongoing project which I’ll be updating over time.</p>
+<p><a href="https://bitbucket.org/skipbits/_unity" target="_blank" rel="external">_Unity Utility Library for Unity Game Engine</a></p>
+<h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h2><ol>
+<li>Download from Github</li>
+<li>Compile with VS 2013</li>
+<li>Put dll in Plugins folder of Unity Project</li>
+</ol>
+<h2 id="Quick-Setup"><a href="#Quick-Setup" class="headerlink" title="Quick Setup"></a>Quick Setup</h2><p>Get the pre-compiled binary dll in bin directory of this repo and put it in plugins folder of your unity project.</p>
+<h2 id="DOCS"><a href="#DOCS" class="headerlink" title="DOCS"></a>DOCS</h2><p>public static void l(string msg)<br>prints a string to the debug console with current time and date and other info e.g. _.l(“Hello”);</p>
+<p>public static void ExecOnce(Callback callback,ref bool limiter)<br>Executes a method only once inside all loop functions ( update, OnGUI, etc)</p>
+<p>public static void GUISetup(float customWidth=1366f,float customHeight=768f)<br>Sets up GUI Scaling correctly. Call this at first line of each OnGUI. e.g. <em>.GUISetup(); e.g. </em>.GUISetup(800f,480f);</p>
+<p>Find more at the Bitbucket repo.</p>
+<p>Feel free to ask any questions regarding _unity as this is a very basic utility library for Unity 3D engine. Catch me on google @ +AbhishekDeb.</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> debug </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> gui scaling </tag>
+            
+            <tag> library </tag>
+            
+            <tag> shuffle </tag>
+            
+            <tag> utility </tag>
+            
+            <tag> finite state machine </tag>
+            
+            <tag> generic singleton </tag>
+            
+            <tag> REST client </tag>
+            
+            <tag> rapid tools </tag>
+            
+            <tag> rapid library </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Lifesaver tools and scripts]]></title>
+      <url>http://debabhishek.com//writes/Lifesaver-tools-and-scripts/</url>
+      <content type="html"><![CDATA[<h1 id="Lifesaver-tools-and-scripts"><a href="#Lifesaver-tools-and-scripts" class="headerlink" title="Lifesaver tools and scripts"></a>Lifesaver tools and scripts</h1><p>Here are some cool and “must-have” tools, scripts, and Lifesaver plugins that will save your from pulling your hairs out. All of these are FREE.</p>
+<a id="more"></a>
+<ol>
+<li><p>Frame Per Second<br> If you are using Unity’s FPS to track and manage the game, think again. Use <a href="http://wiki.unity3d.com/index.php?title=FramesPerSecond" target="_blank" rel="external">this script</a> to see REAL FPS counter.</p>
+</li>
+<li><p>Finite State Machine<br> Every good programmer uses a state machine solution to avoid code complexity and re-use code in a structured way. So far, the <a href="https://github.com/thefuntastic/Unity3d-Finite-State-Machine" target="_blank" rel="external">best Finite State Machine Solution</a> I have got. You could be interested in <a href="https://bitbucket.org/skipbits/_unity" target="_blank" rel="external">uTool</a> plugin as well which has integrated State Machine Features</p>
+</li>
+<li><p>Directory Contents to Text File<br> In Windows, if you want to print all the contents of a directory ( may be, recursively?) to an external text file, do so by the tree command. Hold Shift and Right Click the directory you want to print, click on Open Command Window here and paste this code and press enter.<br> <code>tree /F /A &gt; contents.txt</code></p>
+<p> The <code>/F</code> Flag prints the file names, and <code>/A</code> flag disables extended ASCII printing.<br> IMHO, this should have topped the Lifesaver tools and scripts list.</p>
+</li>
+<li><p><del>In-App Purchase, Social Profile, Rewards</del> <em>This has been discontinued</em>.<br> Recently I stumbled upon a great open-source framework for unity: Soomla.<br> <em>Soomla offers :</em><br> Store : The one-go IAP Package for all the virtual currency management<br> Level Up : Game Progression with ease.<br> Grow : Community driven analytic and data sharing<br> Profile: Social Profile for your players – Facebook Status, Twitter Bragging, etc.<br> The best thing about this is that the whole package is open-source and you can use them as long as you want, modify them as you wish.</p>
+</li>
+<li><p>Shaders<br> Shaders contain code that defines what kind of properties and assets to use. A Shader basically defines a formula for how the in-game shading should look. Shaders are meant to be written by graphics programmers. They are created using the ShaderLab language, which is quite simple. For a quick view, these are the most used ones:  </p>
+<ul>
+<li><a href="http://wiki.unity3d.com/index.php/Transparent_Single_Color_Shader" target="_blank" rel="external">Transparent Single Color Shader</a></li>
+<li><a href="http://wiki.unity3d.com/index.php/ToonShadowed" target="_blank" rel="external">Toon Shadowed Shader</a></li>
+<li><a href="http://wiki.unity3d.com/index.php/OutlinedDiffuse" target="_blank" rel="external">Outlined Diffuse Shader</a></li>
+<li><a href="https://www.assetstore.unity3d.com/#/content/3926" target="_blank" rel="external">Quick and Easy Toon Shader from Asset Store</a>  </li>
+</ul>
+</li>
+<li><p>Input and Touches<br> Prime31 does offer a good touch solution but if you are looking for more intuitive and all-in-one touch solutions, you have to look at <a href="https://github.com/InteractiveLab/TouchScript" target="_blank" rel="external">TouchScript</a> .</p>
+<pre><code>+ Good Documentation
++ Demo Tutorials  
++ Comparatively Easy and Fast  
++ Many Projects are using them   
+</code></pre></li>
+<li>Tweening<br> To the point iTween is considered the defacto for tweening in Unity Systems , I found <a href="http://dotween.demigiant.com/" target="_blank" rel="external">DOTween</a>.<br> Is really Fast ( and I mean REALLY), fuly optimized for C# and works great on every device.<br> Another one of the neat Lifesaver tools and scripts for unity to strap under your belt.</li>
+</ol>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> plugins </tag>
+            
+            <tag> scripts </tag>
+            
+            <tag> tools </tag>
+            
+            <tag> tricks </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Effective Unity Folder Structure ]]></title>
+      <url>http://debabhishek.com//writes/Effective-Unity-Folder-Structure/</url>
+      <content type="html"><![CDATA[<h1 id="Effective-Unity-Folder-Structure"><a href="#Effective-Unity-Folder-Structure" class="headerlink" title="Effective Unity Folder Structure"></a>Effective Unity Folder Structure</h1><p>There are many types of structures, being used by so many people. Some are categorize by file types, some by tags, and some by the relations. However, I found the following folder structure to be very efficient.</p>
+<a id="more"></a>
+<p>I have come across many blogs and studies their folder structures and what I found best for me was the following one. This is a lighltly edited version of what you will get at : <a href="http://www.glenstevens.ca/unity3d-best-practices/" target="_blank" rel="external">http://www.glenstevens.ca/unity3d-best-practices/</a></p>
+<p><img src="/2014/07/28/Effective-Unity-Folder-Structure/Unity3d-Folder-Structure.png" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Folder Structure </tag>
+            
+            <tag> Game Workflow </tag>
+            
+            <tag> Unity </tag>
+            
+            <tag> Abhishek </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[How to have a Career as a Game Developer]]></title>
+      <url>http://debabhishek.com//writes/How-to-have-a-Career-as-a-Game-Developer/</url>
+      <content type="html"><![CDATA[<h1 id="How-to-have-a-Career-as-a-Game-Developer"><a href="#How-to-have-a-Career-as-a-Game-Developer" class="headerlink" title="How to have a Career as a Game Developer"></a>How to have a Career as a Game Developer</h1><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="[ Introduction ]"></a>[ Introduction ]</h2><p>I don’t intend to sound formal or academic in any sense but then again, this format has already helped a lot of people(including me) so I am going to stick to it anyway.</p>
+<a id="more"></a>
+<p>You may have come around many articles and blog on How to have a Career as a Game Developer, this one is just more of a journal/ note/ Task List. All of the key points are arranged in a specific manner, so you may find very short paragraphs.</p>
+<p>Articles are:</p>
+<ul>
+<li>Comparatively Short</li>
+<li>Updated with Latest Trends and Specs</li>
+<li>Objective type and To the point</li>
+<li>Distinctive and Clear</li>
+<li>Drafts, Diagrams, Examples (just like this one) and Walkthroughs</li>
+<li>Comparisons with Advantages/Disadvantages, Quotes and Links</li>
+<li>Challenging as-well-as Motivating</li>
+<li>References to valuable resources and people</li>
+<li>Separate Queries in the Forum ( Soon)</li>
+</ul>
+<h2 id="STEP-1-–-Reviewing-all-the-“instincts”-and-“intuitions”"><a href="#STEP-1-–-Reviewing-all-the-“instincts”-and-“intuitions”" class="headerlink" title="[ STEP 1 ] – Reviewing all the “instincts” and “intuitions”"></a>[ STEP 1 ] – Reviewing all the “instincts” and “intuitions”</h2><p>I created this blog as a reminder for myself from time to time, and as a self-motivation tool. Eventually, it has helped a lot of my friends, local people, and even people from other places (outside my country).</p>
+<p>There is a difference between becoming a game developer, and becoming a good game developer. To become the latter, get yourself acquainted with these following skills –</p>
+<ol>
+<li>Strong Programming ability ( C++ / Java / C# / ActionScript / JavaScript / …)</li>
+<li>Understanding platform architecture (PC/ PlayStation/ XBOX/ Android/ Wii/ iOS/ Steam Box/ … )</li>
+<li>Understanding Academics – Maths, Physics, Graphics, AI (Artificial Intelligence), Psychology …</li>
+<li>Understanding Tools <ol>
+<li>Art Tools -  (Photoshop, Blender/ 3DS/ zBrush), </li>
+<li>Engines  - ( Unity3D, Construct 2, UDK, …), IDEs ( Visual Studio, Xcode)</li>
+</ol>
+</li>
+<li>Creativity in any form – Sketching, Illustrations, Story Telling, Voice Acting</li>
+<li>Playing the “damn” Game  – The more you play = The more you get the idea about how others will enjoy or treat your game. Many great game designers have written books on Gameplay Mechanics and Game Play Experience.</li>
+<li>Exercise – Crucial for health, both body and mind. In this field, our important asset to contribute is our brains. If your body is not healthy, you’ll probably suffer the Game Developer’s Block- you will run out of ideas, get irritated and depressed. Work it out champ.</li>
+</ol>
+<h2 id="STEP-2-–-Knowing-what-“Game-Developers”-do"><a href="#STEP-2-–-Knowing-what-“Game-Developers”-do" class="headerlink" title="[ STEP 2 ] – Knowing what “Game Developers” do"></a>[ STEP 2 ] – Knowing what “Game Developers” do</h2><p>Wikipedia quotes:</p>
+<blockquote>
+<p>Video game development is the process of creating a video game. Development is undertaken by a game developer, which may range from a single person to a large business. …</p>
+</blockquote>
+<p>Clearly this is way too simple for beginners to catch. So I am gonna run through very basic work each team needs to carry out :<br><strong>Video Game Developers</strong> (Devs) are those people who write bunch of codes (respectfully, program) for a game software in or out of a company.<br><strong>Artists</strong> make gun models and bullet colours. Developers make it possible for the players to fire a bullet out of a gun.<br><strong>Designer</strong>, however, work between them and set up the rules of how fast the player can fire bullets.</p>
+<p>The mainstream people have always gone to become a Game Designer by following the path of either a Game Artist or a Game Developer and excelling at it. This is purely for fallback and guidance purpose. You are free to roam around and find your own ways of achieving it.<br>So, the bottom line is, you need to know how to program. Although there are some products in the market who claim to produce games “without programming”, I would recommend against them as they will only slow you down. I am not saying they are bad and all but, there does exist fast and effective approaches than using <em>GameMaker</em> kind of products.</p>
+<p>Also, do not get tempted to freeze yourself with C++ as you might have heard that pro game developers in industries use only C++. Its a fact. Starting out with C++ will surely teach you many facets and make you technically very strong. But then again, there does exist fast and effective approaches than using hardcore beasts like C++.</p>
+<h2 id="STEP-3-–-Understanding-under-the-hood"><a href="#STEP-3-–-Understanding-under-the-hood" class="headerlink" title="[ STEP 3 ] – Understanding under-the-hood"></a>[ STEP 3 ] – Understanding under-the-hood</h2><h3 id="The-Problem"><a href="#The-Problem" class="headerlink" title="The Problem"></a>The Problem</h3><p>Some learn from text books, some from practical implementations, some from Audio-Video and Interaction. The problem is, the way of understanding and acquiring knowledge is not same and consistent for everyone.</p>
+<h3 id="Blog-to-the-rescue"><a href="#Blog-to-the-rescue" class="headerlink" title="Blog to the rescue"></a>Blog to the rescue</h3><p>Although, a fact still remains a fact for everyone. So, instead of shedding different versions of perspective over a single thing, lets think tactically and try to acquire knowledge based on patterns, guidelines and real-time implementations.</p>
+<p>This article and/or blog is way too immature to be used as a text book. Just read it whenever you feel you want to know something more. And obviously, do practice it along with because Game programming is more of a practical thing, than mere theory.</p>
+<p>You do need some basic understanding of certain things before starting out. Please review the chapters and get yourself acquainted with specified topics as it will be mentioned in the following chapters.</p>
+<h2 id="STEP-4-–-All-Hammers-and-Nails"><a href="#STEP-4-–-All-Hammers-and-Nails" class="headerlink" title="[ STEP 4 ] – All Hammers and Nails"></a>[ STEP 4 ] – All Hammers and Nails</h2><h3 id="Game-Art"><a href="#Game-Art" class="headerlink" title="Game Art:"></a>Game Art:</h3><ul>
+<li>Blender / 3DS MAX</li>
+<li>Adobe Photoshop</li>
+<li>Adobe After Effects (For Post Production)</li>
+<li>ZBrush</li>
+</ul>
+<h3 id="Game-Programming"><a href="#Game-Programming" class="headerlink" title="Game Programming:"></a>Game Programming:</h3><ul>
+<li>Combo 1: Visual C++ with DirectX 11</li>
+<li>Combo 2: Visual C++ with IrrLicht/ Ogre3D engine</li>
+<li>Combo 3: <del>Visual C# with SlimDx</del> (Discontinued)</li>
+<li>Combo 4: Visual C++ with OpenGL</li>
+<li>Combo 5: Java with openGL</li>
+<li>Combo 6: Unity3D with C#</li>
+<li>Combo 7: Unreal Engine, Blueprint</li>
+<li>… many more</li>
+</ul>
+<p>There are so many of ‘em</p>
+<p>IMHO, there are way more combo than you can imagine. You don’t need to worry about that. My Main focus will be on Unity, Unreal Engine, C++  and DirectX. Although I would introduce other software just for the sake of comparison and  introductory knowledge.</p>
+<h2 id="STEP-5-–-Get-Down’-and-Dirty"><a href="#STEP-5-–-Get-Down’-and-Dirty" class="headerlink" title="[ STEP 5 ] – Get Down’ and Dirty"></a>[ STEP 5 ] – Get Down’ and Dirty</h2><h3 id="Why-DirectX-Isn’t-OpenGL-easier"><a href="#Why-DirectX-Isn’t-OpenGL-easier" class="headerlink" title="Why DirectX? Isn’t OpenGL easier?"></a>Why DirectX? Isn’t OpenGL easier?</h3><p>I really don’t want to get in the religious debate between whether to choose DirectX or OpenGL. I really feel each has its own advantage and disadvantage. If you are more like an OpenGL person, I would recommend  you to come to this site later as I will be adding OpenGL tuts also. If you want to compare both of them, do it here.<br>And for everyone else who want to row the DirectX boat, lets get started to the amazing adventure, Lets Rock! <code>\m/</code></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/en/0/01/Directx9.png" alt=""></p>
+<h3 id="Wait-what-the-heck-is-this-DirectX-and-OpenGL-and-all-those-things"><a href="#Wait-what-the-heck-is-this-DirectX-and-OpenGL-and-all-those-things" class="headerlink" title="Wait, what the heck is this DirectX and OpenGL and all those things?"></a>Wait, what the heck is this DirectX and OpenGL and all those things?</h3><p>Hmm, if everything above looks alien to you, don’t panic. If you don’t know these but surely have heard of these and it is exciting your blood cells then, congratulate yourself, you do have game development in your gene.<br><em>Direct Answer</em>: DirectX (Direct3D) and OpenGL are two of the most popular Graphics APIs that help you to build amazingly super cool games. DirectX is a proprietary software by Microsoft an OpenGL is an open source library maintained by Silicon Graphics. DirectX SDK (Software Development Kit) contains many APIs ( Application Programming Interface ) such as – Direct3D, XACT3, DirectInput, etc.</p>
+<h3 id="Seriously-what-are-these-things-You-are-freaking-me-out"><a href="#Seriously-what-are-these-things-You-are-freaking-me-out" class="headerlink" title="Seriously, what are these things? You are freaking me out!"></a>Seriously, what are these things? You are freaking me out!</h3><p>Think of it as a collection of small building blocks. We place each of them on top of the other to make a big castle. It doesn’t matter what color you choose (DirectX or OpenGL), what matters is your game logic. Keep Rocking <code>\m/</code>.</p>
+<h3 id="Am-I-eligible-to-learn-these-stuff"><a href="#Am-I-eligible-to-learn-these-stuff" class="headerlink" title="Am I eligible to learn these stuff?"></a>Am I eligible to learn these stuff?</h3><p>Any one with the passion of making games is eligible. All the posts here are written keeping in mind that the reader is novice.<br>Since DirectX and OpenGL are advanced topics, it is recommended that the user knows the basics of C++ programming language like – Classes and Objects, Inheritance, Pointers etc. Posts requiring this stuff will also have a reference to a crash course. Still, Basic knowledge about C++ is highly recommended. Want to learn now – Go <a href="http://www.cprogramming.com/tutorial/lesson1.html" target="_blank" rel="external">here</a>.</p>
+<h3 id="Sources-of-this-blog"><a href="#Sources-of-this-blog" class="headerlink" title="Sources of this blog"></a>Sources of this blog</h3><p>One source is never enough. Admit it. Plus, using multiple sources lets you gain in-depth knowledge in a very reliable and easy way. I have tried to compile all the sources in to a very simple and easy manner. List of Sources:</p>
+<ul>
+<li><a href="http://www.directxtutorial.com/Tutorial11/tutorials.aspx" target="_blank" rel="external">DirectX Tutorial</a></li>
+<li><a href="http://www.rastertek.com/tutdx11.html" target="_blank" rel="external">RasterTek DirectX 11</a></li>
+<li><a href="http://www.amazon.com/Beginning-DirectX-11-Game-Programming/dp/1435458958/ref=sr_1_2?ie=UTF8&amp;qid=1347447743&amp;sr=8-2&amp;keywords=directX+11+Game+Programming" target="_blank" rel="external">Beginning DirectX 11 Game Programming (by Allen and Wendy)</a></li>
+<li><a href="http://www.microsoft.com/en-in/download/confirmation.aspx?id=6812" target="_blank" rel="external">DirectX SDK June 2010 Documentation and Samples</a></li>
+<li><a href="http://www.gamedev.net/" target="_blank" rel="external">GameDev.net</a></li>
+<li><a href="http://www.toymaker.info/Games/index.html" target="_blank" rel="external">ToyMaker.info</a></li>
+<li>Some cool friends who already know Dx</li>
+</ul>
+<h2 id="STEP-6-–-Lets-get-started"><a href="#STEP-6-–-Lets-get-started" class="headerlink" title="[ STEP 6 ] – Lets get started"></a>[ STEP 6 ] – Lets get started</h2><p>So now that you have a somewhat clear idea about making games, start small, and be ready to fail. In the next post, we will start with basic comparison, selection and configuration of different tools, install them and review their alternatives and explore more and more resources.<br>We will take a peek on conversation among high profile game developers and great people in the game Industries to motivate yourself.<br>Also, we will learn something good about being healthy.<br>So prepare yourself – mentally, physically, technically and psychologically and every damn-ally. You are going to fight, compete and also contribute to the world of Gaming and it’s Development. I wish you all the luck.</p>
+<h2 id="Homework-–-No-you-are-not-escaping-this-time-…"><a href="#Homework-–-No-you-are-not-escaping-this-time-…" class="headerlink" title="[ Homework ] – No, you are not escaping this time …"></a>[ Homework ] – No, you are not escaping this time …</h2><p>For starters, read along these pages for a reference. Feel free to choose any of them.</p>
+<ul>
+<li><a href="http://www.gamefromscratch.com/post/2011/08/04/I-want-to-be-a-game-developer.aspx" target="_blank" rel="external">I want to be a game developer</a></li>
+<li><a href="http://kotaku.com/5979539/a-beginners-guide-to-making-your-first-video-game" target="_blank" rel="external">A Beginner’s Guide To Making Your First Video Game</a></li>
+<li><a href="http://www.wikihow.com/Become-a-Video-Game-Programmer" target="_blank" rel="external">How to Become a Video Game Programmer</a></li>
+<li><a href="http://www.fastgraph.com/makegames/chapt1.html" target="_blank" rel="external">Do You Have What it Takes to Be a Game Developer?</a></li>
+<li><a href="http://www.gamasutra.com/blogs/TerryWilson/20130822/198823/Myths_around_the_Game_Development_Industry.php" target="_blank" rel="external">Myths around the Game Development Industry</a></li>
+</ul>
+<h2 id="Suggestions-Feedback-Criticism"><a href="#Suggestions-Feedback-Criticism" class="headerlink" title="[ Suggestions / Feedback / Criticism: ]"></a>[ Suggestions / Feedback / Criticism: ]</h2><p>I am open to criticism and feedbacks. If you feel that I have caught a different path somewhere in my article, feel free to contact me. If you want me to write an article concerning a very important topic, please use the forum or email me. All your feedback and suggestions are highly appreciated. Thanks.</p>
+<p>I hope I could throw some light on how to have a career as  a game developer.</p>
+<h2 id="Disclaimer"><a href="#Disclaimer" class="headerlink" title="[ Disclaimer: ]"></a>[ Disclaimer: ]</h2><p>All images used are copyrighted material. DirectX is Licensed under Microsoft.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Career </tag>
+            
+            <tag> career in game development </tag>
+            
+            <tag> start </tag>
+            
+            <tag> bootstraping </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Why work in Game Industry when IT companies pay better?]]></title>
+      <url>http://debabhishek.com//writes/Why-work-in-Game-Industry-when-IT-companies-pay-better/</url>
+      <content type="html"><![CDATA[<h1 id="Why-work-in-Game-Industry-when-IT-Companies-pay-better"><a href="#Why-work-in-Game-Industry-when-IT-Companies-pay-better" class="headerlink" title="Why work in Game Industry when IT Companies pay better?"></a>Why work in Game Industry when IT Companies pay better?</h1><blockquote>
+<p>there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?</p>
+</blockquote>
+<a id="more"></a>
+<p>A very interesting, and yet, disappointing question revolves me around by many friends, friends of friends, and strangers – “Why would I work in a Game Industry when IT companies are paying me better?“.</p>
+<p>Before even starting this article, I would like to highlight the fact that Game Industry doesn’t consists of only Programmers and Testers. Artists create assets and they themselves are unavoidable and priceless assets.</p>
+<p>And then, there are many more people who are deeply associated to the game industry – Musicians, Production team, FX team, Design (not limited to UI) team, and QA people, and many more. So, speaking exclusively about programmers in context of the question about Game Industry will be somewhat biased, partial and incomplete. However, for the sake of specific discussion, I assume that this question was asked by a group of people belonging to Mainstream Programming in IT industry and thinking about Game Industry as an alternative.</p>
+<p>So, coming back to the question – why work in a game industry when IT companies pay better?</p>
+<ol>
+<li>If you really <strong>are</strong> passionate about making things what you and others enjoy playing, you wouldn’t ask this question at first point. If you are okay earning money through what-so-ever way, you may want to reconsider reading this blog further <code>:P</code>. IMHO, companies in Game Industries won’t hire you if you have just played a couple of games and think, “it’ll be cool to work there”. </li>
+<li>You must play at-least that much that it compels you to think, “How did they make that s<em>*</em>” or “I wish someday I will grab a game title in a local game store that has my code written on it“. If you are even getting close to what I am trying to say, then my friend, you would NEVER EVER ask this question.</li>
+<li>Another way of looking at this could be - It depends on how much you are ready to commit to yourself about making games. <em>High pays are not always the best rewards you can get out of your work.</em> Indie Game developers keep making games no matter what. They fail a hundred times. Sometimes the art is not good enough, sometimes, the gameplay sucks, or sometimes, some crazy a$$ guy decides to leave the team in middle and flies off. But, the next day, the guys get up and start coding again! </li>
+<li>And, if you end up in big gates like EA, Activision, Criterion Studios, UbiSoft, Zynga, etc, the pay is way cooler than other software engineering disciplines.</li>
+<li>Oh and lastly, you may start with small pay, grow gradually, and end up having a lavish salary and the joy in your heart of entertaining others.</li>
+</ol>
+<p>Marc Mencer says, ” there does seem to be a lower average salary for programmers in the game industry when compared with business programmers from equal positions of experience and education. If that is the case, why would anyone want to work for less money doing the same job?</p>
+<p>The truth of the matter is that, while the skill of programming may be the same or similar, the jobs are completely different. On a game project, you have a good time working on a piece of entertainment. You also have more liberal hours and you don’t have to wear a suit to work. The bottom line is to imagine whether you would want to work on a project writing drivers for printers or on a project making the next Doom.”</p>
+<p>That explains it all why you should work in Game Industry rather than anything else even if IT Companies pay better.</p>
+<p>Still thinking why work in Game Industry when IT Companies pay better??</p>
+<p>Having said that, people working in Game Industry often go through tough times as well. Sometimes 17 hours a day. I’ve read somewhere about a wife writing a blog against EA how the manager of a certain EA studio almost ruined the life of her Husband by making him work day and night. Some companies even go bankrupt before even publishing a single game. Still, why work there? – Read again from atop!</p>
+<p>I myself belong to IT background, but, my heart is, and will always be with core game development. This is my view to clarify on what people think, misinterpret and misunderstand about the payment and comfort in Game Industry. At the end of the day, if you have no complaints over your job, consider yourself Lucky!</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Game development as career </tag>
+            
+            <tag> thought </tag>
+            
+            <tag> why game development </tag>
+            
+            <tag> motivation </tag>
+            
+            <tag> career </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Move a GameObject relative to its facing direction in Unity]]></title>
+      <url>http://debabhishek.com//writes/Move-a-GameObject-relative-to-its-facing-direction-in-Unity/</url>
+      <content type="html"><![CDATA[<h1 id="The-Scenario"><a href="#The-Scenario" class="headerlink" title="The Scenario"></a>The Scenario</h1><p>Generally in a game where the player has to move a gameobject (Central character, RPG, Hero, etc.) as he progresses. Now, assuming the game to be non-unidirectional, many people (including me) face the problem of making the gameobject move relative to its facing direction.</p>
+<a id="more"></a>
+<p>If the game is such that the player can simultaneously move on x and z direction, you can independently setup the movement physics code. Turning around would be used by the mouse itself so you just need to setup a mouse-look script on the camera. Here the Turning around is a continuous task (e.g. Crysis, COD, Project IGI).</p>
+<p>e.g.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//Moving Forward</div><div class="line"> rigidbody.AddForce(Vector3.forward* Input.GetAxis(“Vertical”)*400);</div><div class="line"></div><div class="line">//Turning Around</div><div class="line">rigidbody.AddForce(Vector3.right* Input.GetAxis(“Horizontal”)*400);</div></pre></td></tr></table></figure></p>
+<p>But there may be a problem if you want to make a game where the mouse-look isn’t really needed and the turning happens discretely by user input and based on the direction the player is facing, he is needed to move forward (e.g. Temple Run).</p>
+<h1 id="The-Solution"><a href="#The-Solution" class="headerlink" title="The Solution"></a>The Solution</h1><p>Now you can either use global variables to keep reference of the direction the player gameObject is facing, or use simple and more natural logic to move it, using the following scripts.</p>
+<h2 id="Case-I"><a href="#Case-I" class="headerlink" title="Case I"></a>Case I</h2><p>If you are manipulating the position directly, you can move a gameobject relative to its facing direction by using transform.forward instead of Vector3.forward in the scripting.</p>
+<p>e.g.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">transform.position=Vector3.Lerp(transform.position,transform.forward,Time.deltaTime);</div></pre></td></tr></table></figure></p>
+<h3 id="Case-II"><a href="#Case-II" class="headerlink" title="Case II"></a>Case II</h3><p>If your code is using physics, use rigidbody.AddRelativeForce rather than rigidbody.AddForce</p>
+<p>e.g.</p>
+<pre><code>rigidbody.AddRelativeForce(Vector3.forward*30);
+</code></pre><h3 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h3><p>The scripts are intended for 3D Environment. But changing them for 2D is easy. I will try to provide 2D examples too if I find suitable time.</p>
+]]></content>
+      
+        <categories>
+            
+            <category> Game Development </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> movement </tag>
+            
+            <tag> transform </tag>
+            
+            <tag> unity3d </tag>
+            
+            <tag> unity </tag>
+            
+            <tag> physics </tag>
+            
+            <tag> rigidbody </tag>
+            
+            <tag> C# </tag>
+            
+        </tags>
+        
+    </entry>
+    
+  
+  
+</search>
